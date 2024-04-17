@@ -1,0 +1,2877 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Engineering House</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/rwd.css">
+</head>
+
+<body>
+    <!-- 1 start header -->
+    <nav class="navbar english position-fixed w-100 navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand bg-" href="">
+                <h1 class="h3">Engineering House</h1>
+                <p class="fw-light fs-6 text-center opacity-50">For Geotechnics and Structure</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav h6 m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link english" aria-current="page" href="#team">TEAM</a>
+                        <a class="nav-link arabic" aria-current="page" href="#teamAr">TEAM</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#service" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            PROJECTS
+                        </a>
+                        <ul class="dropdown-menu bg-success-subtle w-25">
+                            <li><a class="dropdown-item" href="#geotechnical">Geotechnical</a></li>
+                            <li><a class="dropdown-item" href="#structural">Structural</a></li>
+                            <li><a class="dropdown-item" href="#architectural">Architectural</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#lab">LABORATORY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#contract">PAPERS & CONTRACTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#contact">CONTACT</a>
+                    </li>
+
+                </ul>
+                <button id="arabic" class="btn btn-outline-success">Arabic</button>
+                <!-- <button id="english" class="btn btn-outline-success">English</button> -->
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar arabic position-fixed w-100 navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand text-center" href="">
+                <h1 class="h3">بيت الهندسة</h1>
+                <p class="fw-light fs-6 text-center opacity-50">للأنشاءات والهندسة الجيوتقنية</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav h6 m-auto mb-2 mb-lg-0">
+                    <li class="nav-item px-1">
+                        <a class="nav-link active" aria-current="page" href="#home">الرئيسية</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link " aria-current="page" href="#about">من نحن</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link english" aria-current="page" href="#team">فريقنا</a>
+                        <a class="nav-link arabic" aria-current="page" href="#teamAr">فريقنا</a>
+                    </li>
+                    <li class="nav-item dropdown px-1">
+                        <a class="nav-link dropdown-toggle" href="#service" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            المشاريع
+                        </a>
+                        <ul class="dropdown-menu bg-success-subtle w-25 text-end">
+                            <li><a class="dropdown-item" href="#geotechnical">الجيوتقنية</a></li>
+                            <li><a class="dropdown-item" href="#structural">الانشائية</a></li>
+                            <li><a class="dropdown-item" href="#architectural">المعمارية</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link " aria-current="page" href="#lab">المعمل</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link " aria-current="page" href="#contract">الاوراق & العقود</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link " aria-current="page" href="#contact">تواصل معنا</a>
+                    </li>
+
+                </ul>
+                <!-- <button id="arabic" class="btn btn-outline-success">Arabic</button> -->
+                <button id="english" class="btn d-block btn-outline-success me-auto">English</button>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="">
+        <div id="carouselExampleInterval" class="carousel slide vh-100" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <img src="images/slideshow-5.jpg"
+                        class="d-block w-100 vh-100 object-fit-lg-contaobject-fit-md-fill bg-screen" alt="...">
+                    <img src="images/slideshow-50.jpg"
+                        class="d-none w-100 vh-100 sm-screen object-fit-lg-contaobject-fit-md-fill object-fit-sm-fill"
+                        alt="...">
+                </div>
+                <div class="carousel-item active position-relative" data-bs-interval="5000">
+                    <img src="images/slideshow-7.png"
+                        class="d-block bg-screen w-100 vh-100 object-fit-md-fill object-fit-sm-fill" alt="...">
+                    <img src="images/slideshow-70.jpg"
+                        class="d-none sm-screen w-100 vh-100 object-fit-md-fill object-fit-sm-fill" alt="...">
+                </div>
+                <div class="carousel-item bg-danger" data-bs-interval="5000">
+                    <img src="images/slideshow-6.jpg" class="d-block bg-screen w-100 vh-100 object-fit-md-fill"
+                        alt="...">
+                    <img src="images/slideshow-6.jpg" class="d-none sm-screen w-100 vh-100 object-fit-md-fill"
+                        alt="...">
+                </div>
+
+            </div>
+
+            <div class="head-btn">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- 1 end header -->
+    <!-- -------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- 2 start about us -->
+    <section id="about" class="container-fluid my-5 py-3 bg-body-tertiary">
+        <div class="container my-5">
+            <div
+                class="trans text-center position-relative d-flex justify-content-center align-items-center flex-column">
+                <h2 class="fw-bold english">A</h2>
+                <h2 class="fw-bold arabic">م</h2>
+                <div class="position-absolute about-head-custom">
+                    <h2 class="fs-1 fw-bold english">About Us</h2>
+                    <h2 class="fs-1 fw-bold arabic">من نحن</h2>
+                </div>
+            </div>
+
+            <div class="row  justify-content-center align-items-center">
+                <div class="col-md-4 english justify-content-center align-items-center">
+
+                    <div class="mb-4 text-center">
+                        <img src="images/dr walid 2.png" class="w-100 rounded-circle" alt="">
+                    </div>
+                </div>
+                <div class="col-md-8 english">
+                    <div class="about-head container-fluid w-100 text-center my-5">
+                        <p class="text-muted fs-5 my-4">
+                            Engineering House for Geotechnical and Construction in 2018 under the leadership of
+                            Professor Dr.
+                            Consulting Engineer/ <span class="text-black h4">Walid El-kamash</span>, to be one of the
+                            consulting
+                            offices specialized in structural engineering with all its details, including soil research
+                            and
+                            structural designs, in addition to engineering supervision of the entire construction work.
+                            Through
+                            the experience and capabilities of our engineers, which are characterized by a combination
+                            of
+                            practical experience and high scientific capabilities, as the office’s leadership has many
+                            distinguished lecturers and experts in the field.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="row  justify-content-center align-items-center">
+
+                <div class="col-md-8 arabic">
+                    <div class="about-head container-fluid w-100 text-center my-5">
+                        <p class="text-muted fs-5 my-4">
+                            <!-- بيت الهندسة للانشاءات الجيوتقنية والانشاءات عام  2018  بقياده الاستاذ الدكتور المهندس  الاستشاري  / وليد القماش   ليكون احد المكاتب الاستشاريه المتخصصه في الهندسه الانشائيه بكامل تفاصيلها من ابحاث التربه و التصميمات الانشائيه بالاضافه الي الاشراف الهندسي علي الاعمال الانشائيه بالكامل . -->
+                            <!-- من خلال خبرات مهندسينا و امكانياتهم التي تتميز بمزيج من الخبرات العمليه و القدرات العلميه العاليه حيث ان قيادات المكتب بها العديد من المحاضرين و الخبراء المتميزين في المجال . -->
+                            بيت الهندسة للانشاءات الجيوتقنية والانشاءات عام 2018 بقياده الاستاذ الدكتور المهندس
+                            الاستشاري/ <span class="text-black h4">وليد القماش</span>, ليكون احد المكاتب الاستشاريه
+                            المتخصصه في الهندسه الانشائيه بكامل تفاصيلها من ابحاث التربه و التصميمات الانشائيه بالاضافه
+                            الي الاشراف الهندسي علي الاعمال الانشائيه بالكامل
+                            من خلال خبرات مهندسينا و امكانياتهم التي تتميز بمزيج من الخبرات العمليه و القدرات العلميه
+                            العاليه حيث ان قيادات المكتب بها العديد من المحاضرين و الخبراء المتميزين في المجال
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-4 arabic justify-content-center align-items-center">
+
+                    <div class="mb-4 text-center">
+                        <img src="images/dr walid 2.png" class="w-100 rounded-circle" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row  justify-content-center mt-4 about rounded-4 p-2 align-items-center">
+                <div class="col-md-6 english">
+                    <ul class="">
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">Professor Dr. Consultant Engineer/ <span
+                                    class="text-black">Walid El-kamash</span></h1>
+                        </li>
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">With more than 25 years of experience, in addition
+                                to academic and practical experience</h1>
+                        </li>
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">Assistant Professor at James Cook University,
+                                Australia, 2020</h1>
+                        </li>
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">Chairman of the Board of Directors of EGF
+                                Engineering Consulting Company</h1>
+                        </li>
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">Lecturer at training centers in the United Arab
+                                Emirates, Oman, Turkey, and London</h1>
+                        </li>
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">Lecturer in the Department of Civil Engineering,
+                                Faculty of Engineering, Suez Canal University from 2012: 2016</h1>
+                        </li>
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">Vice Dean of the Faculty of Engineering for
+                                Postgraduate Studies and Research, Suez Canal University</h1>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 english">
+                    <ul class="">
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">Visiting Assistant Professor at the University of
+                                Kansas, USA, from 2011: 2016</h1>
+                        </li>
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">Consultant in soil mechanics and foundations at
+                                the Egyptian Syndicate of Engineers</h1>
+                        </li>
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">Head of the Civil Engineering Department, Faculty
+                                of Engineering, Suez Canal University from 2017: 2020</h1>
+                        </li>
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">Assistant Professor at the British University from
+                                2017: 2018</h1>
+                        </li>
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">Representative of the Faculty of Engineering, Suez
+                                Canal University, at conferences in Berlin, Montreal, Quebec, and Athens</h1>
+                        </li>
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">Assistant Professor at Jazan University, Kingdom
+                                of Saudi Arabia from 2010: 2012</h1>
+                        </li>
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">Director of Project Management at Belayim
+                                Petroleum Company from 1999: 2010</h1>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row  justify-content-center mt-4 about rounded-4 p-2 align-items-center">
+                <div class="col-md-6 arabic">
+                    <ul class="">
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">الاستاذ الدكتور المهندس الاستشاري /
+                                <span class="text-black">وليد القماش</span>
+                            </h1>
+                        </li>
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">بخبرات تجاوزت 25 عاما بالاضافه الي الخبرات
+                                الاكاديميه و العمليه</h1>
+                        </li>
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">استاذ مساعد بجامعة جيمس كوك استراليا 2020
+                            </h1>
+                        </li>
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">رئيس مجلس ادارة شركة EGF للاستشارات الهندسية
+                            </h1>
+                        </li>
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">محاضر بمراكز التدريب بالامارات العربية و عمان و
+                                تركيا و لندن
+                            </h1>
+                        </li>
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">مدرس بقسم الهندسة المدنية كلية الهندسة جامعة قناة
+                                السويس من 2012 : 2016
+                            </h1>
+                        </li>
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">استاذ مساعد زائر بجامعة كانساس الولايات المتحدة
+                                الامريكية من 2011 : 2016
+                            </h1>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 arabic">
+                    <ul class="">
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">وكيل كلية الهندسة للدراسات العليا جامعة قناة
+                                السويس
+                            </h1>
+                        </li>
+
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">استشاري ميكانيكا التربة و الاساسات بنقابه
+                                المهندسين المصريه
+                            </h1>
+                        </li>
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">رئيس قسم الهندسة المدنية بكلية الهندسة جامعة قناة
+                                السويس من 2017 : 2020
+                            </h1>
+                        </li>
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">استاذ مساعد بالجامعة البريطانية من 2017 : 2018
+                            </h1>
+                        </li>
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">ممثل لكلية الهندسة جامعة قناة السويس بمؤتمرات
+                                برلين و مونتريال و كيبيك و اثينا
+                            </h1>
+                        </li>
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">استاذ مساعد بجامعة جازان المملكة العربية السعودية
+                                من 2010 : 2012
+                            </h1>
+                        </li>
+                        <li>
+                            <h1 class="h6 card-title text-muted my-2">مدير ادارة المشروعات بشركة بترول بلاعيم من 1999 :
+                                2010
+                            </h1>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 2 end about us -->
+    <!-- -------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- 3 start team -->
+    <!-- english -->
+    <section id="team" class="container text-center english my-5">
+        <div class="about-head container-fluid w-75 text-center">
+            <div
+                class="trans text-center position-relative d-flex justify-content-center align-items-center flex-column">
+                <h2 class="fw-bold">O</h2>
+                <div class="position-absolute about-head-custom">
+                    <h2 class="fs-1 fw-bold">Our Team</h2>
+                </div>
+            </div>
+            <p class="text-muted fs-5 my-4">We inform you that in any work carried out by our office, the implementation
+                team must be followed by a distinguished engineer to supervise and conduct all work using the correct
+                engineering methods, to ensure the quality of work, and to properly manage and overcome difficult
+                situations and confrontations.</p>
+        </div>
+        <div class="row container mx-auto justify-content-center gy-5 mt-5">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="py-4 members">
+                    <div class="member position-relative">
+                        <div class="overflow-hidden rounded-2 border border-3 border-dark-subtle"><img
+                                src="images/imageupdate/marwan.jpg" class="custom-img w-100" alt="">
+                        </div>
+                        <div
+                            class="layer position-absolute w-100 h-100 top-0 start-0 rounded-2 d-flex justify-content-center align-items-center">
+                            <a href=""><i class="fa-brands fa-twitter text-white px-3"></i></a>
+                            <a href="https://www.facebook.com/marwan.mostafa.1460" target="_blank"><i
+                                    class="fa-brands fa-facebook-f text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-dribbble text-white px-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <h5 class="card-title">Eng. Marawan Moustafa </h5>
+                        <!-- <p class="card-text mb-0 text-muted">Civil Engineer</p> -->
+                        <p class="card-text mb-0 text-muted">Technical office Engineer</p>
+                        <p class="card-text mb-0 text-muted">5 years of experience</p>
+                        <section id="singers" class="container">
+                            <div class="text-center">
+                                <p id="singer1" class="text-primary pointer-event p-2 mb-0">See More</p>
+                                <div id="text1" class="bg-body-secondary detail rounded-3">
+                                    <p class="card-text mb-0 text-muted">-Work as civil engineer at Toyota Egypt's water
+                                        tanks project</p>
+                                    <p class="card-text mb-0 text-muted">-Work as civil engineer at Food Industries
+                                        Complex in Qaha and Edfina</p>
+                                    <p class="card-text mb-0 text-muted">-Work as civil engineer at Arab Zidan treatment
+                                        plant</p>
+                                    <p class="card-text mb-0 text-muted">-Work as civil engineer at Alexandria Port
+                                        Power Station</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="py-4 members">
+                    <div class="member position-relative">
+                        <div class="overflow-hidden border border-3 border-dark-subtle rounded-2"><img
+                                src="images/imageupdate/Picture8.jpg" class="custom-img w-100" alt="">
+                        </div>
+                        <div
+                            class="layer position-absolute w-100 h-100 top-0 start-0 rounded-2 d-flex justify-content-center align-items-center">
+                            <a href=""><i class="fa-brands fa-twitter text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-dribbble text-white px-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <h5 class="card-title">Eng. Ahmed Meghawry</h5>
+                        <!-- <p class="card-text mb-0 text-muted">Civil Engineer</p> -->
+                        <p class="card-text mb-0 text-muted">Technical office Engineer</p>
+                        <p class="card-text mb-0 text-muted">5 years of experience</p>
+                        <section id="singers" class="container">
+                            <div class="text-center">
+                                <p id="singer3" class="text-primary pointer-event p-2 mb-0">See More</p>
+                                <div id="text3" class="bg-body-secondary detail rounded-3">
+                                    <p class="card-text mb-0 text-muted">-Work as Geotechnical Engineering</p>
+                                    <p class="card-text mb-0 text-muted">-Work as Structural Engineer </p>
+                                    <p class="card-text mb-0 text-muted">-Work as repairing & technical office Engineer
+                                    </p>
+                                    <p class="card-text mb-0 text-muted">-Work at at Consulting Center, Faculty of
+                                        Engineering, Suez Canal University</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="py-4 members">
+                    <div class="member position-relative">
+                        <div class="overflow-hidden border border-3 border-dark-subtle rounded-2"><img
+                                src="images/imageupdate/mahfoz.jpg" class="custom-img w-100" alt="">
+                        </div>
+                        <div
+                            class="layer position-absolute w-100 h-100 top-0 start-0 rounded-2 d-flex justify-content-center align-items-center">
+                            <a href=""><i class="fa-brands fa-twitter text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-dribbble text-white px-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <h5 class="card-title">Mr. Mahfouz Mohamed</h5>
+                        <!-- <p class="card-text mb-0 text-muted">Accountant</p> -->
+                        <p class="card-text mb-0 text-muted">Accountant office</p>
+                        <p class="card-text mb-0 text-muted">15 years of experience</p>
+                        <section id="singers" class="container">
+                            <div class="text-center">
+                                <p id="singer4" class="text-primary pointer-event p-2 mb-0">See More</p>
+                                <div id="text4" class="detail bg-body-secondary rounded-3">
+                                    <p class="card-text mb-0 text-muted"> - Master of Business Administration, Faculty
+                                        of Commerce, Suez Canal University
+                                    </p>
+                                    <p class="card-text mb-0 text-muted">- Director of the Office of the Vice Dean of
+                                        the Faculty of Engineering, Suez Canal University
+                                    </p>
+                                    <p class="card-text mb-0 text-muted">- Director of the administrative office and
+                                        accountant of the Engineering House Geotechnical and Construction Company
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="py-4 members">
+                    <div class="member position-relative">
+                        <div class="overflow-hidden rounded-2 border border-3 border-dark-subtle"><img
+                                src="images/imageupdate/Elamir.jpg" class="custom-img w-100" alt="">
+                        </div>
+                        <div
+                            class="layer position-absolute w-100 h-100 top-0 start-0 rounded-2 d-flex justify-content-center align-items-center">
+                            <a href=""><i class="fa-brands fa-twitter text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-dribbble text-white px-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <h5 class="card-title">Eng. Mohamed El Amir</h5>
+                        <!-- <p class="card-text mb-0 text-muted">Civil </p> -->
+                        <p class="card-text mb-0 text-muted">Site Engineer</p>
+                        <p class="card-text mb-0 text-muted">2 years of experience</p>
+                        <section id="singers" class="container">
+                            <div class="text-center">
+                                <p id="singer0" class="text-primary pointer-event p-2 mb-0">See More</p>
+                                <div id="text0" class="bg-body-secondary detail rounded-3">
+                                    <p class="card-text mb-0 text-muted">- Developing and repairing the efficiency
+                                        of health units in the cities of Bir Al-Abd and Al-Arish (Al-Tulul - Aqtiyah -
+                                        Al-Marih - 6th of October - Al-Ahrar - June 30th - Al-Sakaska - Al-Taweel)</p>
+
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="py-4 members">
+                    <div class="member position-relative">
+                        <div class="overflow-hidden rounded-2 border border-3 border-dark-subtle">
+                            <!-- <img src="images/imageupdate/kamal.jpg" class="custom-img w-100" alt=""> -->
+                            <img src="images/imageupdate/kamal2.png" class="custom-img w-100" alt="">
+
+                        </div>
+                        <div
+                            class="layer position-absolute w-100 h-100 top-0 start-0 rounded-2 d-flex justify-content-center align-items-center">
+                            <a href=""><i class="fa-brands fa-twitter text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-dribbble text-white px-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <h5 class="card-title english">Eng. Kamal Sweedan</h5>
+                        <!-- <p class="card-text mb-0 text-muted">Civil Engineer</p> -->
+                        <p class="card-text mb-0 text-muted english">ُEngineer project manager in Al-Arish for projects
+                        </p>
+                        <p class="card-text mb-0 text-muted english">10 years of experience</p>
+                        <h5 class="card-title arabic">كمال عصام كمال سويدان</h5>
+                        <!-- <p class="card-text mb-0 text-muted">Civil Engineer</p> -->
+                        <p class="card-text mb-0 text-muted arabic">مدير مشروعات المكتب في العريش لمشاريع </p>
+                        <p class="card-text mb-0 text-muted arabic">خبرة 10 سنوات</p>
+                        <section id="singers" class="container">
+                            <div class="text-center">
+                                <p id="singer6" class="text-primary pointer-event p-2 mb-0">See More</p>
+                                <div id="text6" class="detail bg-body-secondary rounded-3">
+                                    <p class="card-text mb-0 text-muted"> -Al-Arish University (construction of student
+                                        housing building 2 and a project to raise the efficiency of the College of
+                                        Education building and building a role and a project to raise the efficiency of
+                                        the female students’ city)
+                                    </p>
+                                    <p class="card-text mb-0 text-muted"> -Health units development project in North
+                                        Sinai Governorate (8 units)
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="py-4 members">
+                    <div class="member position-relative">
+                        <div class="overflow-hidden rounded-2 border border-3 border-dark-subtle"><img
+                                src="images/imageupdate/abdelrahmn.JPG" class="custom-img w-100" alt="">
+                        </div>
+                        <div
+                            class="layer position-absolute w-100 h-100 top-0 start-0 rounded-2 d-flex justify-content-center align-items-center">
+                            <a href=""><i class="fa-brands fa-twitter text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-dribbble text-white px-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <h5 class="card-title">Eng. Abd El-rahman Fathy</h5>
+                        <!-- <p class="card-text mb-0 text-muted">Geologist</p> -->
+                        <p class="card-text mb-0 text-muted">Site Engineer</p>
+                        <p class="card-text mb-0 text-muted">2 years of experience</p>
+                        <section id="singers" class="container">
+                            <div class="text-center">
+                                <section id="singers" class="container">
+                                    <div class="text-center">
+                                        <p id="singer20" class="text-primary pointer-event p-2 mb-0">See More</p>
+                                        <div id="text20" class="bg-body-secondary detail rounded-3">
+                                            <p class="card-text mb-0 text-muted">-The project to construct a children’s
+                                                hospital in Ismailia</p>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="py-4 members">
+                    <div class="member position-relative">
+                        <div class="overflow-hidden border border-3 border-dark-subtle rounded-2"><img
+                                src="images/imageupdate/ismael.jpg" class="custom-img w-100" alt="">
+                        </div>
+                        <div
+                            class="layer position-absolute w-100 h-100 top-0 start-0 rounded-2 d-flex justify-content-center align-items-center">
+                            <a href=""><i class="fa-brands fa-twitter text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-dribbble text-white px-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <h5 class="card-title english">Eng. Mohamed Ismael</h5>
+                        <!-- <p class="card-text mb-0 text-muted">Civil Engineer</p> -->
+                        <p class="card-text mb-0 text-muted english">Site Engineer</p>
+                        <p class="card-text mb-0 text-muted english">4 years of experience</p>
+                        <section id="singers" class="container">
+                            <div class="text-center">
+                                <p id="singer5" class="text-primary pointer-event p-2 mb-0 english">See More</p>
+                                <!-- <p id="singer5" class="text-primary pointer-event p-2 mb-0 arabic">المزيد</p> -->
+                                <div id="text5" class="detail bg-body-secondary rounded-3">
+                                    <p class="card-text mb-0 text-muted english">-Office project engineer in Al-Arish
+                                        for
+                                        projects</p>
+                                    <p class="card-text mb-0 text-muted english">-Al-Arish University (construction of
+                                        student housing building 2 and a project to raise the efficiency of the College
+                                        of Education building and building a role and a project to raise the efficiency
+                                        of the female students’ city)
+                                    </p>
+                                    <p class="card-text mb-0 text-muted english">-Health units development project in
+                                        North Sinai Governorate, number (8 units)</p>
+                                    <p class="card-text mb-0 text-muted arabic">مهندس مشروعات المكتب في العريش لمشاريع
+                                    </p>
+                                    <p class="card-text mb-0 text-muted arabic"> ١- جامعه العريش ( انشاء مبني اسكان طلاب
+                                        ٢ و مشروع رفع كفائه مبني كليه التربيه وتعليه دور ومشروع رفع كفائه مدينه الطالبات
+                                        )
+                                    </p>
+                                    <p class="card-text mb-0 text-muted arabic"> ٢- مشروع تطوير الوحدات الصحيه بمحافظه
+                                        شمال سيناء عدد (٨ وحدات )
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="py-4 members">
+                    <div class="member position-relative">
+                        <div class="overflow-hidden rounded-2 border border-3 border-dark-subtle"><img
+                                src="images/imageupdate/magdy.jpg" class="custom-img w-100" alt="">
+                        </div>
+                        <div
+                            class="layer position-absolute w-100 h-100 top-0 start-0 rounded-2 d-flex justify-content-center align-items-center">
+                            <a href=""><i class="fa-brands fa-twitter text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-dribbble text-white px-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <h5 class="card-title english">Geo. Mohamed Magdi</h5>
+                        <p class="card-text mb-0 text-muted english">Site & Lab Geologist</p>
+                        <p class="card-text mb-0 text-muted english">3 years of experience</p>
+                        <!-- <h5 class="card-title arabic">جيولوجي / محمد مجدى</h5> -->
+                        <!-- <p class="card-text mb-0 text-muted arabic">جيولوجي موفع ومعمل</p> -->
+                        <!-- <p class="card-text mb-0 text-muted arabic">خبرة 3 سنوات</p> -->
+                        <section id="singers" class="container">
+                            <div class="text-center">
+                                <p id="singer2" class="text-primary pointer-event p-2 mb-0">See More</p>
+                                <div id="text2" class="bg-body-secondary detail rounded-3">
+                                    <p class="card-text mb-0 text-muted">-Bachelor of Science, Alexandria University</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="py-4 members">
+                    <div class="member position-relative">
+                        <div class="overflow-hidden rounded-2 border border-3 border-dark-subtle"><img
+                                src="images/imageupdate/Picture4.png" class="custom-img w-100" alt="">
+                        </div>
+                        <div
+                            class="layer position-absolute w-100 h-100 top-0 start-0 rounded-2 d-flex justify-content-center align-items-center">
+                            <a href=""><i class="fa-brands fa-twitter text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-dribbble text-white px-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <h5 class="card-title">Eng. Alaa Khaled</h5>
+                        <p class="card-text mb-0 text-muted">Technical office Engineer</p>
+                        <p class="card-text mb-0 text-muted">1 year of experience</p>
+                        <section id="singers" class="container">
+                            <div class="text-center">
+                                <p id="singer7" class="text-primary pointer-event p-2 mb-0">See More</p>
+                                <div id="text7" class="detail bg-body-secondary rounded-3">
+                                    <p class="card-text mb-0 text-muted">-Architect Engineer</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="py-4 members">
+                    <div class="member position-relative">
+                        <div class="overflow-hidden rounded-2 border border-3 border-dark-subtle"><img
+                                src="images/imageupdate/Picture0.png" class="custom-img w-100" alt="">
+                        </div>
+                        <div
+                            class="layer position-absolute w-100 h-100 top-0 start-0 rounded-2 d-flex justify-content-center align-items-center">
+                            <a href=""><i class="fa-brands fa-twitter text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-dribbble text-white px-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <h5 class="card-title">Prof. Eman Esawy</h5>
+                        <p class="card-text mb-0 text-muted">Cassation Lawyerr</p>
+                        <p class="card-text mb-0 text-muted">10 years experience</p>
+                        <section id="singers" class="container">
+                            <div class="text-center">
+                                <p id="singer8" class="text-primary pointer-event p-2 mb-0">See More</p>
+                                <div id="text8" class="detail bg-body-secondary rounded-3">
+                                    <p class="card-text mb-0 text-muted">-The legal advisor to the office</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="container justify-content-center flex-wrap d-flex justify-content-md-between w-75 align-items-center my-5">
+            <p class="fs-2">Do you have any ideas?</p>
+            <a href="#contact"><button type="button"
+                    class="btn btn-custom rounded-1 text-white fw-bold px-4 py-2">Contact Us</button></a>
+        </div>
+
+    </section>
+
+    <!-- arabic -->
+    <section id="teamAr" class="container text-center my-5 arabic">
+        <div class="about-head container-fluid w-75 text-center">
+            <div
+                class="trans text-center position-relative d-flex justify-content-center align-items-center flex-column">
+                <h2 class="fw-bold">ف</h2>
+                <div class="position-absolute about-head-custom">
+                    <h2 class="fs-1 fw-bold">فريقنا</h2>
+                </div>
+            </div>
+            <p class="text-muted fs-5 my-4">نحيط علم سيادتكم انه فى اى عمل يقوم به مكتبنا لابد من ان يكون طاقم التنفيذ
+                يتبعه مهندس متميز للاشراف واجراءات جميع الاعمال بالطرق الهندسية الصحيحة ولضمان جودة الاعمال وحسن ادارة
+                المواقف والمواجهات الصعبة والتغلب عليها .
+            </p>
+        </div>
+        <div class="row container mx-auto justify-content-center  gy-5 mt-5">
+            <div class="col-lg-3 col-md-3">
+                <div class="py-4 members">
+                    <div class="member position-relative">
+                        <div class="overflow-hidden rounded-2 border border-3 border-dark-subtle"><img
+                                src="images/imageupdate/marwan.jpg" class="custom-img w-100" alt="">
+                        </div>
+                        <div
+                            class="layer position-absolute w-100 h-100 top-0 start-0 rounded-2 d-flex justify-content-center align-items-center">
+                            <a href=""><i class="fa-brands fa-twitter text-white px-3"></i></a>
+                            <a href="https://www.facebook.com/marwan.mostafa.1460" target="_blank"><i
+                                    class="fa-brands fa-facebook-f text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-dribbble text-white px-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <h5 class="card-title">م / مروان مصطفي </h5>
+                        <p class="card-text mb-0 text-muted">مهندس مكتب فني</p>
+                        <p class="card-text mb-0 text-muted">خبرة 5 سنوات</p>
+                        <section id="singers" class="container">
+                            <div class="text-center">
+                                <p id="singer1ar" class="text-primary pointer-event p-2 mb-0">المزيد</p>
+                                <div id="text1ar" class="bg-body-secondary detail rounded-3">
+                                    <p class="card-text mb-0 text-muted">-العمل كمهندس مدني بمشروع خزانات المياه لشركة
+                                        تويوتا مصر</p>
+                                    <p class="card-text mb-0 text-muted">-العمل كمهندس مدني بمجمع الصناعات الغذائية بقها
+                                        وإدفينا</p>
+                                    <p class="card-text mb-0 text-muted">-العمل كمهندس مدني في محطة معالجة عرب زيدان</p>
+                                    <p class="card-text mb-0 text-muted">-العمل كمهندس مدني بمحطة كهرباء ميناء
+                                        الإسكندرية</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="py-4 members">
+                    <div class="member position-relative">
+                        <div class="overflow-hidden border border-3 border-dark-subtle rounded-2"><img
+                                src="images/imageupdate/Picture8.jpg" class="custom-img w-100" alt="">
+                        </div>
+                        <div
+                            class="layer position-absolute w-100 h-100 top-0 start-0 rounded-2 d-flex justify-content-center align-items-center">
+                            <a href=""><i class="fa-brands fa-twitter text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-dribbble text-white px-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <h5 class="card-title arabic">م/ أحمد مغاوري</h5>
+                        <p class="card-text mb-0 text-muted arabic">مهندس مكتب فني</p>
+                        <p class="card-text mb-0 text-muted arabic">خبره 5 سنوات </p>
+                        <section id="singers" class="container">
+                            <div class="text-center">
+                                <p id="singer2ar" class="text-primary pointer-event p-2 mb-0">المزيد</p>
+                                <div id="text2ar" class="bg-body-secondary detail rounded-3">
+                                    <p class="card-text mb-0 text-muted">-العمل بالهندسة الجيوتقنية</p>
+                                    <p class="card-text mb-0 text-muted">-العمل كمهندس إنشائي</p>
+                                    <p class="card-text mb-0 text-muted">-العمل كمهندس ترميم ومكتب فني</p>
+                                    <p class="card-text mb-0 text-muted">-العمل بالمركز الاستشاري بكلية الهندسة جامعة
+                                        قناة السويس</p>
+
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="py-4 members">
+                    <div class="member position-relative">
+                        <div class="overflow-hidden rounded-2 border border-3 border-dark-subtle"><img
+                                src="images/imageupdate/mahfoz.jpg" class="custom-img w-100" alt="">
+                        </div>
+                        <div
+                            class="layer position-absolute w-100 h-100 top-0 start-0 rounded-2 d-flex justify-content-center align-items-center">
+                            <a href=""><i class="fa-brands fa-twitter text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-dribbble text-white px-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <h5 class="card-title arabic">أ / محفوظ محمد محفوظ</h5>
+                        <p class="card-text mb-0 text-muted arabic"> محاسب المكتب</p>
+                        <p class="card-text mb-0 text-muted arabic">خبرة 15 سنة</p>
+                        <section id="singers" class="container">
+                            <div class="text-center">
+                                <p id="singer3ar" class="text-primary pointer-event p-2 mb-0">المزيد</p>
+                                <div id="text3ar" class="bg-body-secondary detail rounded-3">
+                                    <p class="card-text mb-0 text-muted">- ماجستير إدارة الأعمال كلية التجارة جامعة قناة
+                                        السويس</p>
+                                    <p class="card-text mb-0 text-muted">- مدير مكتب وكيل كلية الهندسة جامعة قناة السويس
+                                    </p>
+                                    <p class="card-text mb-0 text-muted">- مدير المكتب الإداري ومحاسب شركة دار الهندسة
+                                        للجيوتقنية والإنشاءات</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="py-4 members">
+                    <div class="member position-relative">
+                        <div class="overflow-hidden rounded-2 border border-3 border-dark-subtle"><img
+                                src="images/imageupdate/Elamir.jpg" class="custom-img w-100" alt="">
+                        </div>
+                        <div
+                            class="layer position-absolute w-100 h-100 top-0 start-0 rounded-2 d-flex justify-content-center align-items-center">
+                            <a href=""><i class="fa-brands fa-twitter text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-dribbble text-white px-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <h5 class="card-title arabic">م / محمد الامير</h5>
+                        <p class="card-text mb-0 text-muted arabic">مهندس موقع</p>
+                        <p class="card-text mb-0 text-muted arabic">خبرة 5 سنوات</p>
+                        <section id="singers" class="container">
+                            <div class="text-center">
+                                <p id="singer4ar" class="text-primary pointer-event p-2 mb-0">المزيد</p>
+                                <div id="text4ar" class="bg-body-secondary detail rounded-3">
+                                    <p class="card-text mb-0 text-muted">- تطوير وإصلاح كفاءة الوحدات الصحية بمدن بئر
+                                        العبد والعريش (التلول - أقطية - المرح - 6 أكتوبر - الأحرار - 30 يونيو - السقاسكا
+                                        - الطويل )</p>
+
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="py-4 members">
+                    <div class="member position-relative">
+                        <div class="overflow-hidden rounded-2 border border-3 border-dark-subtle"><img
+                                src="images/imageupdate/abdelrahmn.JPG" class="custom-img w-100" alt="">
+                        </div>
+                        <div
+                            class="layer position-absolute w-100 h-100 top-0 start-0 rounded-2 d-flex justify-content-center align-items-center">
+                            <a href=""><i class="fa-brands fa-twitter text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-dribbble text-white px-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <h5 class="card-title">م / عبدالرحمن فتحى</h5>
+                        <!-- <p class="card-text mb-0 text-muted">Geologist</p> -->
+                        <p class="card-text mb-0 text-muted">مهندس موقع</p>
+                        <p class="card-text mb-0 text-muted">خبرة 3 سنوات</p>
+                        <section id="singers" class="container">
+                            <div class="text-center">
+                                <p id="singer5ar" class="text-primary pointer-event p-2 mb-0">المزيد</p>
+                                <div id="text5ar" class="bg-body-secondary detail rounded-3">
+                                    <p class="card-text mb-0 text-muted">- جامعة العريش (إنشاء مبنى السكن الطلابي 2
+                                        ومشروع رفع كفاءة مبنى كلية التربية وبناء دور ومشروع رفع كفاءة المدينة الطالبات)
+                                    </p>
+                                    <p class="card-text mb-0 text-muted">- مشروع تطوير الوحدات الصحية بمحافظة شمال سيناء
+                                        (8 وحدات)</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="py-4 members">
+                    <div class="member position-relative">
+                        <div class="overflow-hidden border border-3 border-dark-subtle rounded-2"><img
+                                src="images/imageupdate/ismael.jpg" class="custom-img w-100" alt="">
+                        </div>
+                        <div
+                            class="layer position-absolute w-100 h-100 top-0 start-0 rounded-2 d-flex justify-content-center align-items-center">
+                            <a href=""><i class="fa-brands fa-twitter text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-dribbble text-white px-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <h5 class="card-title english">Eng. Mohamed Ismael</h5>
+                        <p class="card-text mb-0 text-muted english">Site Engineer</p>
+                        <p class="card-text mb-0 text-muted english">4 years of experience</p>
+                        <h5 class="card-title arabic">م/ محمد اسماعيل علي زكري</h5>
+                        <p class="card-text mb-0 text-muted arabic">مهندس موقع</p>
+                        <p class="card-text mb-0 text-muted arabic">خبره 4 سنوات </p>
+                        <section id="singers" class="container">
+                            <div class="text-center">
+                                <p id="singer6ar" class="text-primary pointer-event p-2 mb-0">المزيد</p>
+                                <div id="text6ar" class="bg-body-secondary detail rounded-3">
+                                    <p class="card-text mb-0 text-muted">- مهندس مكتب مشروع بالعريش للمشاريع</p>
+                                    <p class="card-text mb-0 text-muted">- جامعة العريش (إنشاء مبنى السكن الطلابي 2
+                                        ومشروع رفع كفاءة مبنى كلية التربية وبناء دور ومشروع رفع كفاءة المدينة الطالبات)
+                                    </p>
+                                    <p class="card-text mb-0 text-muted">- مشروع تطوير الوحدات الصحية بمحافظة شمال سيناء
+                                        عدد (8 وحدات)</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="py-4 members">
+                    <div class="member position-relative">
+                        <div class="overflow-hidden rounded-2 border border-3 border-dark-subtle">
+                            <!-- <img src="images/imageupdate/kamal.jpg" class="custom-img w-100" alt=""> -->
+                            <img src="images/imageupdate/kamal2.png" class="custom-img w-100" alt="">
+
+                        </div>
+                        <div
+                            class="layer position-absolute w-100 h-100 top-0 start-0 rounded-2 d-flex justify-content-center align-items-center">
+                            <a href=""><i class="fa-brands fa-twitter text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-dribbble text-white px-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <h5 class="card-title arabic">م / كمال عصام كمال سويدان</h5>
+                        <p class="card-text mb-0 text-muted arabic">مدير مشروعات المكتب في العريش لمشاريع </p>
+                        <p class="card-text mb-0 text-muted arabic">خبرة 10 سنوات</p>
+                        <section id="singers" class="container">
+                            <div class="text-center">
+                                <p id="singer7ar" class="text-primary pointer-event p-2 mb-0">المزيد</p>
+                                <div id="text7ar" class="bg-body-secondary detail rounded-3">
+                                    <p class="card-text mb-0 text-muted">- جامعة العريش (إنشاء مبنى السكن الطلابي 2
+                                        ومشروع رفع كفاءة مبنى كلية التربية وبناء دور ومشروع رفع كفاءة المدينة الطالبات)
+                                    </p>
+                                    <p class="card-text mb-0 text-muted">- مشروع تطوير الوحدات الصحية بمحافظة شمال سيناء
+                                        (8 وحدات)</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="py-4 members">
+                    <div class="member position-relative">
+                        <div class="overflow-hidden rounded-2 border border-3 border-dark-subtle"><img
+                                src="images/imageupdate/magdy.jpg" class="custom-img w-100" alt="">
+                        </div>
+                        <div
+                            class="layer position-absolute w-100 h-100 top-0 start-0 rounded-2 d-flex justify-content-center align-items-center">
+                            <a href=""><i class="fa-brands fa-twitter text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-dribbble text-white px-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <h5 class="card-title arabic">جيولوجي / محمد مجدى</h5>
+                        <p class="card-text mb-0 text-muted arabic">جيولوجي موفع ومعمل</p>
+                        <p class="card-text mb-0 text-muted arabic">خبرة 3 سنوات</p>
+                        <section id="singers" class="container">
+                            <div class="text-center">
+                                <p id="singer8ar" class="text-primary pointer-event p-2 mb-0">المزيد</p>
+                                <div id="text8ar" class="bg-body-secondary detail rounded-3">
+                                    <p class="card-text mb-0 text-muted">- بكالوريوس العلوم جامعة الإسكندرية</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="py-4 members">
+                    <div class="member position-relative">
+                        <div class="overflow-hidden rounded-2 border border-3 border-dark-subtle"><img
+                                src="images/imageupdate/Picture4.png" class="custom-img w-100" alt="">
+                        </div>
+                        <div
+                            class="layer position-absolute w-100 h-100 top-0 start-0 rounded-2 d-flex justify-content-center align-items-center">
+                            <a href=""><i class="fa-brands fa-twitter text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-dribbble text-white px-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <h5 class="card-title arabic">م / ألاء خالد</h5>
+                        <p class="card-text mb-0 text-muted arabic"> مهندسة معمارية</p>
+                        <p class="card-text mb-0 text-muted arabic">خبرة 1 سنة</p>
+                        <section id="singers" class="container">
+                            <div class="text-center">
+                                <p id="singer9ar" class="text-primary pointer-event p-2 mb-0">المزيد</p>
+                                <div id="text9ar" class="bg-body-secondary detail rounded-3">
+                                    <p class="card-text mb-0 text-muted">- مهندسة معمارية
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="py-4 members">
+                    <div class="member position-relative">
+                        <div class="overflow-hidden rounded-2 border border-3 border-dark-subtle"><img
+                                src="images/imageupdate/Picture0.png" class="custom-img w-100" alt="">
+                        </div>
+                        <div
+                            class="layer position-absolute w-100 h-100 top-0 start-0 rounded-2 d-flex justify-content-center align-items-center">
+                            <a href=""><i class="fa-brands fa-twitter text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-facebook-f text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in text-white px-3"></i></a>
+                            <a href=""><i class="fa-brands fa-dribbble text-white px-3"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3">
+                        <h5 class="card-title arabic">أ / ايمان الصاوي</h5>
+                        <p class="card-text mb-0 text-muted arabic"> محامية المكتب</p>
+                        <p class="card-text mb-0 text-muted arabic">خبرة 10 سنوات</p>
+                        <section id="singers" class="container">
+                            <div class="text-center">
+                                <p id="singer10ar" class="text-primary pointer-event p-2 mb-0">المزيد</p>
+                                <div id="text10ar" class="bg-body-secondary detail rounded-3">
+                                    <p class="card-text mb-0 text-muted">- المستشار القانوني للمكتب</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="container arabic justify-content-center flex-wrap d-flex justify-content-md-between w-75 align-items-center my-5">
+            <p class="fs-2">هل لديكم افكار او مقترحات ؟</p>
+            <a href="#contact"><button type="button" class="btn btn-custom rounded-1 text-white fw-bold px-4 py-2">تواصل
+                    معنا</button></a>
+        </div>
+    </section>
+    <!-- 3 end team -->
+    <!-- -------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- 4 start Projects -->
+    <section id="service" class="bg-body-tertiary py-3">
+        <div class="container my-5">
+            <div class="about-head container-fluid w-75 text-center">
+                <div
+                    class="trans text-center position-relative d-flex justify-content-center align-items-center flex-column">
+                    <h2 class="fw-bold english">P</h2>
+                    <h2 class="fw-bold arabic">م</h2>
+                    <div class="position-absolute about-head-custom">
+                        <h2 class="fs-1 fw-bold english">Projects</h2>
+                        <h2 class="fs-1 fw-bold arabic">المشاريع</h2>
+                    </div>
+                </div>
+                <p class="text-muted fs-5 my-4 english">There are many works constructed out through our office,
+                    including
+                    civil,
+                    architectural and electromechanical works.
+                </p>
+                <p class="text-muted fs-5 my-4 arabic">هناك العديد من الأعمال التي تم تنفيذها من خلال مكتبنا، بما في ذلك
+                    الأعمال المدنية،
+                    الأعمال المعمارية والكهروميكانيكية.
+                </p>
+
+            </div>
+            <!-- 1 -->
+            <div id="geotechnical" class="">
+                <p class="h2 text-decoration-underline text-center fw-bold english bg-info-subtle py-3 rounded-3">First
+                    : Geotechnical works</p>
+                <p class="h2 text-decoration-underline text-center fw-bold arabic bg-info-subtle py-3 rounded-3">أولا :
+                    الاعمال الجيوتقنية </p>
+
+
+
+                <div class="container">
+                    <div class="row bg-dark-subtle align-items-center my-4 py-4 rounded-4 gy-2">
+                        <h1 class="h3 text-center english">1 / Oyoun Musa Gates Project</h1>
+                        <h1 class="h3 text-center arabic">1 / مشروع بوابات عيون موسى </h1>
+                        <div class="col-md-7 d-flex align-items-sm-start service-icons">
+                            <div id="carouselExampleIndicators3" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="0" class="active" aria-current="true"
+                                        aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleIndicators"
+                                        data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="images/project0026.jpg" class="rounded-4 d-block w-100" alt="...">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="images/project0126.jpg" class="rounded-4 d-block w-100" alt="...">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <p class="text-muted h6 py-1 english"><span class="h5 text-black">Location : </span>
+                                Sinai
+                                Governorate -
+                                Egypt
+                            </p>
+                            <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">الموقع : </span> جنوب
+                                سيناء –
+                                مصر
+                            </p>
+
+                            <p class="text-muted h6 py-1 english"><span class="h5 text-black">scope of works : </span>
+                                Civil
+                                and geotechnical engineering works, conducting surveys, classifying samples, conducting
+                                tests of free swelling, swelling energy, and swelling pressure to solve the problem of
+                                rising levels and falling levels of gates and buildings, and conducting geotechnical
+                                studies
+                                necessary to solve the problem of swelling and the impact of the soil on the phenomenon
+                                of
+                                tides and tides, and treating the problem of agricultural clay soils.
+                            </p>
+                            <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">نطاق الأعمال : </span> -
+                                اعمال الهندسة المدنية و الجيوتقنية وااجراء الجسات وتصنيف العينات واجراء اختبارات
+                                الانتفاش
+                                الحر وطاقة الانتفاش وضغط الانتفاش لحل مشكلة ارتفاع منسوب وهبوط منسوب البواباب والمبانى
+                                واجراءات الدراسات الجيوتقنية اللازمة لحل مشكلة الانتفاش وتأثر التربة بظاهرة المد والجزر
+                                وعلاج مشكلة التربة الطينية الزراعية
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-center justify-content-center rounded-4 gy-2">
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">2 / Al-Lahoun project in Fayoum, Beni Suef, agricultural
+                                reserves
+                            </h1>
+                            <h1 class="h6 text-center arabic ">2 / مشروع اللاهون في الفيوم بنى سويف زراعة المحميات
+                            </h1>
+                            <img src="images/project05.png" class="w-100" alt="">
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">المالك : </span> قوات
+                                الدفاع الجوية
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال :
+                                </span>تصميم اساسات واختبارات تربة</p>
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Owner : </span>Air Defense
+                                Forces
+                                Directorate</p>
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                Foundation
+                                design and soil tests </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">3 / Project to constract the plasma center (reservoir) in
+                                Ismailia
+                            </h1>
+                            <h1 class="h6 text-center arabic mb-4">3 / مشروع انشاء مركز البلازما (الخزان) بالاسماعيلية
+                            </h1>
+                            <img src="images/project06.png" class="w-100" alt="">
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">المالك :
+                                </span>GRIFOLS_EGYPT
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال :
+                                </span>ابحاث تربة واساسات</p>
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Owner :
+                                </span>GRIFOLS_EGYPT
+                            </p>
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                Foundation
+                                design and soil tests </p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">4 /Port Said International School Project
+                            </h1>
+                            <h1 class="h6 text-center arabic mb-2">4 / مشروع مدرسة بورسعيد الدولية </h1>
+                            <img src="images/project07.png" class="w-100 my-1" alt="">
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Owner : </span>Sayed
+                                Hatila</p>
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                Foundation
+                                design and soil tests </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">المالك : </span> سيد حتيلة
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال :
+                                </span>ابحاث تربة واساسات وتصميم
+                                الاساسات</p>
+                        </div>
+                    </div>
+                    <!-- ...5 -->
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">5 / Qaha and Edfina Food Industries Complex Project, Sadat City
+                            </h1>
+                            <h1 class="h6 text-center arabic ">5 / مشروع مجمع الصناعات الغذائية قها و ادفينا مدينة السادات</h1>
+                            <img src="images/projrct013.png" class="w-100" alt="">
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Owner : </span> National
+                                Contracting
+                                Company
+                            </p>
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                Soil and
+                                foundation research and quality work on soil and concrete tests </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">المالك : </span> الشركة
+                                الوطنية للمقاولات
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال :
+                                </span>أبحاث التربة والأساسات وأعمال الجودة على اختبارات التربة والخرسانة
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">6 / New Port Said Corniche project
+                            </h1>
+                            <h1 class="h6 text-center arabic ">6 / مشروع كورنيش بورسعيد الجديد</h1>
+                            <img src="images/projrct014.png" class=" w-100" alt="">
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Owner : </span> National
+                                Contracting
+                                Company
+                            </p>
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                Soil and
+                                foundation research, road design and supervision </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">المالك : </span> الشركة
+                                الوطنية للمقاولات
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال :
+                                </span>أبحاث التربة والأساسات وتصميم الطرق والأشراف عليه
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">7 / Downtown project in Port Said
+                            </h1>
+
+                            <h1 class="h6 text-center arabic ">7 / مشروع الداون تاون ببورسعيد
+                            </h1>
+                            <img src="images/projrct012.png" class="w-100" alt="">
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">المالك : </span> الشركة
+                                الوطنية للمقاولات
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال :
+                                </span>أبحاث التربة والأساسات وأعمال الجودة على أختبارات التربة والخرسانة</p>
+
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Owner : </span>National
+                                Contracting
+                                Company
+                            </p>
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                Soil and
+                                foundation research and quality work on soil and concrete tests </p>
+                        </div>
+                    </div>
+                    <!-- ...8 -->
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">8 / Foundation design project for the new Port Said
+                                Stadium
+                            </h1>
+                            <h1 class="h6 text-center arabic ">8 / مشروع تصميم اساسات استاد بورسعيد الجديد
+                            </h1>
+                            <img src="images/projrct10.jpg" class="w-100" alt="">
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Owner : </span>Port Said
+                                Governorate
+                            </p>
+                            <p class="text-muted h6 english"><span class="h6 text-black">Scope of work : </span> Soil
+                                and
+                                foundation research, designing the foundations of the new stadium, and solving problems
+                                that
+                                require deep foundations with less expensive shallow foundations.
+                            </p>
+                            <p class="text-muted h6 py-1 arabic  mt-4"><span class="h6 text-black">المالك : </span>
+                                محافظة بورسعيد
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال :
+                                </span>ابحاث التربة و الاساسات و تصميم اساسات الاستاد الجديد و حل المشاكل التى تستدعى
+                                اساسات عميقة باخرى سطحية اقل تكلفة</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">9 / Port Said project
+                            </h1>
+                            <h1 class="h6 text-center arabic ">9 / مشروع بورسعيد</h1>
+                            <img src="images/projrct011.png" class="w-100 my-3" alt="">
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">المالك :</span>عامر جروب
+                            <p class="text-muted h6 pb-1 arabic "><span class="h6 text-black">نطاق الاعمال :
+                                </span>أبحاث التربة والأساسات والمشاركة فى تصميم الفندق والشاليهات والمول والطرق
+                                والأشراف عليها
+                            </p>
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Owner : </span> Amer Group
+                            </p>
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                Soil and
+                                foundation research, participation in the design and supervision of the hotel, chalets,
+                                mall, and roads </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">10 / Lahoun artificial lakes project
+                                <h1 class="h6 text-center arabic ">10 / مشروع البحيرات الصناعية باللاهون </h1>
+                            </h1>
+                            <img src="images/projrct015.png" class="my-2 w-100" alt="">
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Owner : </span>National
+                                Contracting
+                                Company
+                            </p>
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                Finding
+                                geotechnical solutions for expansive soils, establishing artificial lakes, slopes,
+                                replacements, and safe engineering recommendations. </p>
+                            <p class="text-muted h6 py-2 arabic "><span class="h6 text-black">المالك : </span> الشركة
+                                الوطنية للمقاولات
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال :
+                                </span>إيجاد الحلول الجيوتقنية للتربة الانتفاشية وتأسيس البحيرات الصناعية والميول
+                                والاحلال والتوصيات الهندسية الآمنة</p>
+                        </div>
+                    </div>
+                    <!-- ...11 -->
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center arabic mb-4">11 / مشروع معامل الجودة للبلازما ( شركة الشعفار)
+                            </h1>
+                            <h1 class="h6 text-center english">11 / Plasma Quality Factories Project (Al Shafar Company)
+                            </h1>
+                            <img src="images/projrct016.png" class="w-100" alt="">
+                            <p class="text-muted h6 py-1 arabic my-4"><span class="h6 text-black">المالك : </span>الكلية
+                                الفنية القاهرة
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                معمل جودة ميكانيكا التربة</p>
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Location : </span>Cairo
+                                Technical
+                                College
+                            </p>
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                Soil
+                                mechanics
+                                quality laboratory </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">12 / Qaha and Edfina Food Industries Complex Project, Sadat City</h1>
+                            <h1 class="h6 text-center arabic ">12 / مشروع مجمع الصناعات الغذائية قها و ادفينا مدينة السادات</h1>
+                            <img src="images/projrct017.png" class="w-100" alt="">
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Client : </span>
+                                protection specialized company
+
+                            </p>
+                            <p class="text-muted h6 py-3 arabic "><span class="h6 text-black">العميل : </span>شركة بروتكشن 
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                Soil mechanics and concrete quality laboratory </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                معمل
+                                جودة ميكانيكا التربة و الخرسانة </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">13 / Quality laboratories project, Tahrir Garage
+                                </h1>
+                            <h1 class="h6 text-center arabic mb-4">13 / مشروع معامل الجودة جراج التحرير</h1>
+                            <img src="images/project0020.jpg" class="w-100" alt="">
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Client : </span>Gamma company
+                                
+                            </p>
+                            <p class="text-muted h6 py-1 arabic my-4"><span class="h6 text-black">العميل : </span>شركة جاما
+                                
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                Soil mechanics and concrete quality laboratory </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                معمل
+                                جودة ميكانيكا التربة </p>
+                        </div>
+                    </div>
+                    <!-- ...14 -->
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">14 / Elkhamael 220/66/22  KV substation</h1>
+                            <h1 class="h6 text-center arabic ">14 / مشروع محطة الخمائل 220/66/22 ك.ف
+                            </h1>
+                            <img src="images/project0023.jpg" class="w-100  my-4" alt="">
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Client : </span>elsewedy electric trading & distribution
+                            </p> 
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black"> العميل :</span> شركة السويدي 
+                            </p>
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                Civil
+                                and geotechnical engineering works </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                اعمال
+                                الهندسة المدنية و الجيوتقنية</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">15 / Dar Al-Iftaa Boreholes project in Suez</h1>
+                            <h1 class="h6 text-center arabic ">15 / مشروع جسات دار الافتاء بالسويس</h1>
+                            <img src="images/project0024.jpg" class="my-4 w-100" alt="">
+                            <p class="text-muted h6 py-2 english"><span class="h6 text-black">Location : </span>Suez
+                                City
+                            </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">الموقع : </span>مدينة
+                                السويس
+                            <p class="text-muted h6 py-2 english"><span class="h6 text-black">Scope of work : </span>
+                                Soil mechanics and concrete quality laboratory </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال :
+                                </span>اعمال
+                                الهندسة المدنية و الجيوتقنية</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">16 / Arab Zidan treatment plant </h1>
+                            <h1 class="h6 text-center arabic ">16 / مشروع محطة معالجة عرب زيدان </h1>
+                            <img src="images/project0027.jpg" class="w-100" alt="">
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Location : </span>
+                                Dikernes
+                                Center - Dakahlia Governorate
+                            </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">الموقع : </span>مركز دكرنس
+                                –
+                                محافظة الدقهلية
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                Civil
+                                and geotechnical engineering works, conducting surveys, classifying samples, and testing
+                                necessary to characterize soil sectors. </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                اعمال الهندسة المدنية و الجيوتقنية واجراء الجسات وتصنيف العينات والاختبارات اللازمة
+                                لتوصيف
+                                قطاعات التربة</p>
+                        </div>
+                    </div>
+                    <!-- ...17 -->
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">17 / Boreholes project for the Abu Qir sea port power
+                                station
+                            </h1>
+                            <h1 class="h6 text-center arabic ">17 / مشروع جسات لمحطة كهرباء ميناء ابوقير البحرى </h1>
+                            <img src="images/project0028.jpg" class="my-2 w-100" alt="">
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Client : </span>elsewedy electric trading & distribution
+                            </p> 
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black"> العميل :</span> شركة السويدي 
+                            </p>
+                            <!-- <p class="text-muted h6 py-1 english"><span class="h6 text-black">Location : </span>
+                            </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">الموقع : </span>ابوقير –
+                                الإسكندرية -->
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                Civil
+                                and geotechnical engineering works, conducting surveys, classifying samples, and testing
+                                necessary to characterize soil sectors. </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                اعمال
+                                الهندسة المدنية و الجيوتقنية واجراء الجسات وتصنيف العينات والاختبارات اللازمة لتوصيف
+                                قطاعات
+                                التربة
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">18 / A project to constract a trauma and emergency
+                                hospital
+                            </h1>
+                            <h1 class="h6 text-center arabic ">18 / مشروع انشاء مستشفى اصابات وطوارئ</h1>
+                            <img src="images/project0030.jpg" class="w-100" alt="">
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Location : </span>Baghdad
+                                -
+                                Al-Hasana Center - North Sinai Governorate
+                            </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">الموقع : </span>بغداد -
+                                مركز
+                                الحسنة – محافظة شمال سيناء
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                Soil
+                                and
+                                concrete mechanics quality laboratory </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                معمل
+                                جودة ميكانيكا التربة و الخرسانة </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">19 / Suez Canal University Pediatric Surgery and Medicine
+                                Hospital Project</h1>
+                            <h1 class="h6 text-center arabic ">19 / مشروع مستشفى طب وجراحة الأطفال بجامعة قناة السويس
+                            </h1>
+                            <img src="images/project0029.jpg" class="my-4 w-100" alt="">
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Location : </span>Ismailia
+                                Governorate
+                            </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">الموقع : </span>محافظة
+                                اسماعيلية
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                Soil mechanics and concrete quality laboratory </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                معمل
+                                جودة ميكانيكا التربة والخرسانة</p>
+                        </div>
+                    </div>
+                    <!-- ...20 -->
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">20 / Project to construct a garage for the Grand Egyptian
+                                Museum</h1>
+                            <h1 class="h6 text-center arabic ">20 / مشروع انشاء جراج المتحف المصرى الكبير</h1>
+                            <img src="images/project0031.jpg" class="my-4 w-100" alt="">
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Location : </span>Giza
+                                Governorate
+                            </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">الموقع : </span>محافظة
+                                الجيزه
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                Soil mechanics and concrete quality laboratory </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                معمل
+                                جودة ميكانيكا التربة و الخرسانة </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">21 / The project of constructing the new Faculty of
+                                Engineering building at Suez Canal University</h1>
+                            <h1 class="h6 text-center arabic ">21 / مشروع انشاء مبنى كلية الهندسة الجديد جامعة قناه
+                                السويس
+                            </h1>
+                            <img src="images/project0032.jpg" class="my-3 w-100" alt="">
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Location : </span>Ismailia
+                                Governorate
+                            </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">الموقع : </span>محافظة
+                                اسماعيلية
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                Soil mechanics and concrete quality laboratory </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                معمل
+                                جودة ميكانيكا التربة و الخرسانة </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">22 / A project to construct an integrated egg production
+                                complex
+                            </h1>
+                            <h1 class="h6 text-center arabic ">22 / مشروع انشاء مجمع انتاج مجمع البيض المتكامل</h1>
+                            <img src="images/project0033.jpg" class="my-2 w-100" alt="">
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Location : </span>10Th Of Ramadan City
+                            </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">الموقع : </span>العاشر من رمضان</p>
+                            <p class="text-muted h6 py-1  english "><span class="h6 text-black">Client : </span> Gamma company </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">المالك : </span> شركة جاما</p>
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                Deep
+                                Boreholes - Solving the problem of collapsed soil - Soil mechanics and foundations quality
+                                laboratory
+                                . </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                جسات
+                                عميقة – حل مشكلة التربة الأنتفاشية - معمل جودة ميكانيكا التربة والاساسات
+                            </p>
+                        </div>
+                    </div>
+                    <!-- ...23 -->
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">23 / Northern expansion project</h1>
+                            <h1 class="h6 text-center arabic ">23 / مشروع التوسعات الشمالية</h1>
+                            <img src="images/project0034.jpg" class="my-3 w-100" alt="">
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Location : </span>6th of
+                                October City
+                            </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">الموقع : </span>مدينة
+                                السادس
+                                من أكتوبر
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work :
+                                </span>Boring
+                                works </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                أعمال
+                                جسات</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">24 / A project to treat settlement in the tourist pier
+                            </h1>
+                            <h1 class="h6 text-center arabic ">24 / مشروع معالجة الهبوط بالرصيف السياحى</h1>
+                            <img src="images/project0035.jpg" class="my-2 w-100" alt="">
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Location : </span>West
+                                Port
+                                Said Port
+                            </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">الموقع : </span> ميناء غرب
+                                بورسعيد
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                Treating settlement </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                معالجة
+                                الهبوط </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">25 / Water desalination plant construction project</h1>
+                            <h1 class="h6 text-center arabic ">25 / مشروع إنشاء محطة تحلية المياه</h1>
+                            <img src="images/project0036.jpg" class="w-100" alt="">
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Location : </span>Matrouh
+                                Governorate
+                            </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">الموقع : </span>محافظة
+                                مطروح
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                Soil
+                                and
+                                concrete mechanics quality laboratory </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                معمل
+                                جودة ميكانيكا التربة و الخرسانة </p>
+                        </div>
+                    </div>
+                    <!-- ...26 -->
+                    
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div id="structural" class="">
+                <p class="h2 text-decoration-underline text-center fw-bold english bg-info-subtle py-3 rounded-3">
+                    second:
+                    Structural Works</p>
+                <p class="h2 text-decoration-underline text-center fw-bold arabic bg-info-subtle py-3 rounded-3">ثانيا :
+                    الاعمال الأنشائية </p>
+                    <div class="row align-items-center justify-content-center rounded-4 gy-2">
+                        <div class="container">
+                            <div class="container">
+                                <div class="row bg-dark-subtle align-items-center my-4 py-4 rounded-4 gy-2">
+                                    <h1 class="h3 text-center english">1 / Green Waves Mall construction project</h1>
+                                    <h1 class="h3 text-center arabic">1 / مشروع انشاء مول جرين ويفز</h1>
+                                    <div class="col-md-7 d-flex align-items-sm-start service-icons">
+                                        <div id="carouselExampleIndicators" class="carousel slide">
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="0" class="active" aria-current="true"
+                                                    aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators"
+                                                    data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            </div>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="images/project011.png" class="rounded-4 d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/project012.png" class="rounded-4 d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/project013.png" class="rounded-4 d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">المالك : </span>اتحاد
+                                            شركة
+                                            شرق
+                                            الدلتا للسفر وشركة الرضوان للمقاولات والعقارات</p>
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">Owner : </span>Union
+                                            of
+                                            East
+                                            Delta
+                                            Travel
+                                            Company and Al-Radwan Contracting and Real Estate Company</p>
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">Location : </span>
+                                            Port
+                                            Said -
+                                            Egypt
+                                        </p>
+                                        <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">الموقع : </span>
+                                            بورسعيد –
+                                            مصر
+                                        </p>
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">Client : </span>
+                                            Al-Radwan
+                                            Contracting
+                                            and
+                                            Real Estate Company
+                                        </p>
+                                        <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">العميل : </span>شركة
+                                            الرضوان
+                                            للمقاولات والعقارات
+                                        </p>
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">scope of works :
+                                            </span>
+                                            Monitoring
+                                            the
+                                            subsidence of neighboring buildings / Signature of
+                                            all construction elements
+                                        </p>
+                                        <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">نطاق الأعمال : </span>
+                                            -
+                                            مراقبة
+                                            الهبوط للمبانى المجاورة
+                                            توقيع جميع العناصر الانشائية
+                                        </p>
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">Type of work :
+                                            </span>Construction
+                                            space
+                                        </p>
+                                        <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">نوع العمل :
+                                            </span>مساحة
+                                            انشائية
+        
+                                        </p>
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">Year : </span>2020 -
+                                            now
+                                        </p>
+                                        <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">السنة : </span>2020 -
+                                            الآن
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="container">
+                                <div class="row align-items-center bg-dark-subtle my-4 py-4 rounded-4 gy-2">
+                                    <h1 class="h3 text-center english">2 / Port Said Arsenal dry dock subsidence monitoring
+                                        project
+                                    </h1>
+                                    <h1 class="h3 text-center arabic">2 /مشروع رصد هبوط الحوض الجاف بترسانة بورسعيد
+                                    </h1>
+                                    <div class="col-md-7 d-flex align-items-sm-start service-icons">
+                                        <div id="carouselExampleIndicators1" class="carousel slide">
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselExampleIndicators1"
+                                                    data-bs-slide-to="0" class="active" aria-current="true"
+                                                    aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators1"
+                                                    data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselExampleIndicators1"
+                                                    data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                            </div>
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="images/project021.png" class="rounded-4 d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/project022.png" class="rounded-4 d-block w-100" alt="...">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img src="images/project023.png" class="rounded-4 d-block w-100" alt="...">
+                                                </div>
+                                            </div>
+                                            <button class="carousel-control-prev" type="button"
+                                                data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button"
+                                                data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">المالك : </span>شركة
+                                            القناة
+                                            للموانئ
+                                        </p>
+                                        <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">الموقع : </span>بورسعيد
+                                            –
+                                            مصر
+                                        </p>
+                                        <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">العميل : </span> شركة
+                                            القناة
+                                            للموانئ
+                                        </p>
+                                        <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">نطاق الأعمال : </span>
+                                            مراقبة
+                                            الهبوط
+                                        </p>
+                                        <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">نوع العمل : </span>
+                                            مساحة انشائية
+                                        </p>
+                                        <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">السنة : </span>2020 -
+                                            الآن
+                                        </p>
+        
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">Owner : </span>Canal
+                                            Ports
+                                            Company</p>
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">Location : </span>
+                                            Port
+                                            Said -
+                                            Egypt
+                                        </p>
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">Client : </span>
+                                            ACanal
+                                            Ports
+                                            Company
+                                        </p>
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">scope of works :
+                                            </span>
+                                            Monitoring
+                                            landing
+                                        </p>
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">Type of work :
+                                            </span>Construction
+                                            space
+                                        </p>
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">Year : </span>2020 -
+                                            now
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="container">
+                                <div class="row align-items-center bg-dark-subtle my-4 py-4 rounded-4 gy-2">
+                                    <h1 class="h3 text-center english">3 / A project to monitor the subsidence of 26 buildings
+                                        in
+                                        the
+                                        241-building
+                                        project in social housing in Port Fouad
+                                    </h1>
+                                    <h1 class="h3 text-center arabic">3 / مشروع رصد هبوط لعدد 26 عمارة بمشروع 241 عمارة بالأسكان
+                                        الاجتماعى بورفؤاد
+                                    </h1>
+                                    <div class="col-md-7 d-flex align-items-sm-start service-icons">
+                                        <div id="carouselExampleIndicators1" class="carousel slide">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="images/project031.png" class="d-block rounded-4 w-100" alt="...">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">المالك : </span>جهاز
+                                            مشروعات
+                                            الخدمة الوطنية
+                                        </p>
+                                        <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">الموقع : </span>بورسعيد
+                                            –
+                                            مصر
+                                        </p>
+                                        <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">العميل : </span> جهاز
+                                            مشروعات
+                                            الخدمة الوطنية
+                                        </p>
+                                        <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">نطاق الأعمال : </span>
+                                            مراقبة
+                                            الهبوط لعدد 26 عمارة
+                                        </p>
+                                        <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">نوع العمل : </span>
+                                            مساحة انشائية
+                                        </p>
+                                        <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">السنة : </span>2020 -
+                                            2022
+                                        </p>
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">Owner :
+                                            </span>National
+                                            Service
+                                            Projects
+                                            Authority</p>
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">Location : </span>
+                                            Port
+                                            Said -
+                                            Egypt
+                                        </p>
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">Client : </span>
+                                            National
+                                            Service
+                                            Projects
+                                            Authority
+                                        </p>
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">scope of works :
+                                            </span>
+                                            Monitoring
+                                            the
+                                            subsidence of 26 buildings
+                                        </p>
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">Type of work :
+                                            </span>Construction
+                                            space
+                                        </p>
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">Year : </span>2020 -
+                                            2022
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="container">
+                                <div class="row align-items-center bg-dark-subtle my-4 py-4 rounded-4 gy-2">
+                                    <h1 class="h3 text-center english">4 / Soil and foundation research consultant for the
+                                        80-building
+                                        investment
+                                        project in South Port Fouad
+                                    </h1>
+                                    <h1 class="arabic h3 text-center">4 / استشاري ابحاث التربة و الاساسات لمشروع 80 عمارة
+                                        استثماري
+                                        بجنوب
+                                        بورفؤاد
+                                    </h1>
+                                    <div class="col-md-7 d-flex align-items-sm-start service-icons">
+                                        <div id="carouselExampleIndicators1" class="carousel slide">
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active">
+                                                    <img src="images/project041.png" class="d-block rounded-4 w-100" alt="...">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">المالك : </span>مديرية
+                                            الاسكان
+                                            ببورسعيد
+                                        </p>
+                                        <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">الموقع : </span>بورسعيد
+                                            –
+                                            مصر
+                                        </p>
+                                        <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">العميل : </span> جهاز
+                                            المخابرات
+                                            الحربية
+                                        </p>
+                                        <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">نطاق الأعمال : </span>
+                                            حيث
+                                            تم
+                                            عمل تحسين خواص التربة تقنية الخوازيق الركامية Vibro Displacement
+                                            تنفيذ شركة جينكو Keller Group
+                                            تم الاشراف عليها من قبلنا و اصدار شهادات الصلاحية الخاصة بها من خلالنا و متابعة
+                                            اعمال
+                                            الرصد
+                                            لها بالاشتراك مع المركز القومي لبحوث الاسكان ( حيث تظل هذة التقنية قيد البحث )
+        
+                                            و تقوم فكرة التقنية علي ازاحة بعض اجزاء من التربة الضعيفة و وضع ركام متدرج و يعمل
+                                            ذلك
+                                            علي
+                                            تحسين خواص التربة بنسبة محددة من قبل المصمم.
+                                            تم صياغة النتائج في بحث مبتكر و تم نشره في مجلة عالمية
+                                        </p>
+                                        <p class="text-muted h6 py-1 arabic"><span class="h5 text-black">نوع العمل : </span>
+                                            Vibro Displacement
+                                        </p>
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">Owner : </span>Port
+                                            Said
+                                            Housing
+                                            Directorate</p>
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">Location : </span>
+                                            Port
+                                            Said -
+                                            Egypt
+                                        </p>
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">Client : </span>
+                                            Military
+                                            Intelligence
+                                            Service
+                                        </p>
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">Constractor : </span>
+                                            Genco
+                                            Keller
+                                            Group
+                                        </p>
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">scope of works :
+                                            </span>
+                                            Improvement
+                                            of
+                                            soil
+                                        </p>
+                                        <p class="text-muted h6 py-1 english"><span class="h5 text-black">Type of work :
+                                            </span>Where
+                                            the
+                                            improvement of soil properties using The Vibro Displacement technique
+                                        </p>
+                                        <p class="text-muted h6 py-1 english">The idea of the technology is based on removing
+                                            some
+                                            parts
+                                            of the
+                                            weak
+                                            soil and placing graded aggregate. This improves the properties of the soil by a
+                                            percentage
+                                            specified by the designer.</p>
+                                        <p class="text-muted h6 py-1 english">The results were formulated in an innovative paper
+                                            and
+                                            published
+                                            in an
+                                            international journal</p>
+                                        <p class="text-muted h6 py-1 english">Numerical Simulation of the Installation of Vibro
+                                            Displacement
+                                            Columns
+                                            in Normally Consolidated Clay Using a Field Case Study</p>
+                                    </div>
+                                </div>
+        
+                            </div>
+
+                        </div>
+
+                    <div class="row align-items-center px-0 justify-content-center rounded-4 gy-2">
+                        <div class="col-md-4 text-center rounded-4 py-3">
+                            <div class="container bg-dark-subtle rounded-4 py-3">
+                                <h1 class="h6 text-center english">5 / Ambulance development project (Port Said -
+                                    Damietta -
+                                    Mansoura -
+                                    Suez - Sohag - Aswan)
+                                </h1>
+
+                                <h1 class="h6 text-center arabic ">5 / مشروع تطوير الإسعاف (بورسعيد - دمياط - المنصورة -
+                                    السويس - سوهاج - أسوان)</h1>
+                                <img src="images/project08.png" class="w-100 my-1" alt="">
+                                <p class="text-muted h6 py-1 english"><span class="h6 text-black">Owner :
+                                    </span>Ambulance
+                                    Authority
+                                </p>
+                                <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work :
+                                    </span>Restoration
+                                    and
+                                    strengthening of buildings and concrete
+                                    The suitability of the structure and foundations</p>
+                                <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">المالك : </span>هيئة
+                                    الاسعاف
+                                <p class="text-muted h6 py-1 arabic my-4"><span class="h6 text-black">نطاق الاعمال :
+                                    </span>تريميم وتدعيم المباني والخرسانات
+                                    وصلاحية المنشا والاساسات</p>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 text-center rounded-4 py-3">
+                            <div class="container bg-dark-subtle rounded-4 py-3">
+                                <h1 class="h6 text-center english">6 / Tanta Tourist Hotel Project
+                                </h1>
+                                <h1 class="h6 text-center arabic ">6 / مشروع مشروع فندق طنطا السياحى</h1>
+                                <img src="images/project09.png" class="w-100 my-4" alt="">
+                                <p class="text-muted h6 py-1 english"><span class="h6 text-black">Owner : </span> Tanta
+                                    Governorate
+                                </p>
+                                <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work :
+                                    </span>Restoration
+                                    and
+                                    strengthening of buildings and concrete
+                                    The suitability of the structure and foundations</p>
+                                <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">المالك : </span>
+                                    محافظة
+                                    طنطا
+                                <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال :
+                                    </span>تريميم وتدعيم المباني والخرسانات
+                                    وصلاحية المنشا والاساسات</p>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 text-center rounded-4 py-3">
+                            <div class="container bg-dark-subtle rounded-4 py-3">
+                                <h1 class="h6 text-center english">7 / Propylene station project in Port Said
+                                </h1>
+                                <h1 class="h6 text-center arabic ">7 / مشروع محطة البوليبروبلين ببورسعيد</h1>
+                                <img src="images/project014.png" class="w-100" alt="">
+                                <p class="text-muted h6 py-1 english"><span class="h6 text-black">Owner :
+                                    </span>Muhammad
+                                    Farid
+                                    Khamis
+                                </p>
+                                <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work :
+                                    </span>
+                                    Solve the
+                                    problem of adjusting the angles in the air of the corner so that it allows
+                                    adjusting the timing on the gas as well as the time fraction of the lines of the
+                                    underground
+                                    grid. </p>
+
+                                <p class="text-muted h6 py-1 arabic my-3"><span class="h6 text-black">المالك : </span>
+                                    محمد
+                                    فريد خميس
+                                <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال :
+                                    </span>تحليل وحل مشكلة الهبوط فى التربة للركائز التى تتحمل خطوط الغاز وكذلك الكسر
+                                    المتكرر فى خطوط شبكة الحريق تحت الأرض
+                                </p>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 text-center rounded-4 py-3">
+                            <div class="container bg-dark-subtle rounded-4 py-3">
+                                <h1 class="h6 text-center english">8 / General consulting project for student housing
+                                    building
+                                </h1>
+                                <h1 class="h6 text-center arabic ">8 / مشروع استشاري عام مبنى اسكان الطلبة</h1>
+                                <img src="images/project0021.jpg" class="w-100" alt="">
+                                <p class="text-muted h6 py-1 english"><span class="h6 text-black">Location :
+                                    </span>Al-Arish
+                                    (National
+                                    Contracting Company)
+                                </p>
+                                <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">الموقع : </span>العريش
+                                    (
+                                    الشركة الوطنية للمقاولات )
+                                <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work :
+                                    </span>
+                                    Civil,
+                                    architectural and electromechanical engineering works </p>
+                                <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                    اعمال
+                                    الهندسة المدنية و المعمارية و الالكتروميكانيك </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 text-center rounded-4 py-3">
+                            <div class="container bg-dark-subtle rounded-4 py-3">
+                                <h1 class="h6 text-center english">9 / Flooding road sensors project </h1>
+                                <h1 class="h6 text-center arabic ">9 / مشروع جسات طرق شق التعبان</h1>
+                                <img src="images/project0022.jpg" class="w-100 my-2" alt="">
+                                <p class="text-muted h6 py-1 english"><span class="h6 text-black">Location : </span>Shaq
+                                    Al-Taaban, Cairo (National Contracting Company)
+                                </p>
+                                <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">الموقع : </span>شق
+                                    التعبان
+                                    القاهرة (الشركة الوطنية للمقاولات)
+                                <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work :
+                                    </span>
+                                    Civil
+                                    and geotechnical engineering works </p>
+                                <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                    اعمال
+                                    الهندسة المدنية و الجيوتقنية</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 text-center rounded-4 py-3">
+                            <div class="container bg-dark-subtle rounded-4 py-3">
+                                <h1 class="h6 text-center english">10 / Port Said power station project</h1>
+                                <h1 class="h6 text-center arabic ">10 / مشروع محطة كهرباء بورسعيد</h1>
+                                <img src="images/project0025.jpg" class="w-100" alt="">
+                                <p class="text-muted h6 py-3 english"><span class="h6 text-black">Location : </span>Port
+                                    Said
+                                    city
+                                </p>
+                                <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">الموقع : </span>مدينة
+                                    بورسعيد
+                                <p class="text-muted h6 py-2 english"><span class="h6 text-black">Scope of work :
+                                    </span>
+                                    Civil
+                                    engineering, design and implementation supervision </p>
+                                <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                    اعمال
+                                    الهندسة المدنية والتصميم والاشراف على التنفيذ</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 text-center rounded-4 py-3">
+                            <div class="container bg-dark-subtle rounded-4 py-3">
+                                <h1 class="h6 text-center english">11 / Toyota fire tank project</h1>
+                                <h1 class="h6 text-center arabic ">11 / مشروع خزانات حرائق شركة تويوتا</h1>
+                                <img src="images/project0037.jpg" class="my-2 w-100" alt="">
+                                <p class="text-muted h6 py-1 english"><span class="h6 text-black">Constractor :
+                                    </span>master piece
+                                    
+                                </p>
+                                <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">المنفذ : </span> Master piece </p>
+                                    
+                                <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                    excavation level - replacement layer levels - concrete works - geotechnical works - electrical works</p>
+                                <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                    منسوب
+                                    الحفر – مناسيب طبقات الاحلال - اعمال الخرسانات - الاعمال الجيوتقنية - اعمال الكهرباء</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 text-center rounded-4 py-3">
+                            <div class="container bg-dark-subtle rounded-4 py-3">
+                                <h1 class="h6 text-center english">12 / System of elevator of the Toyota car showroom</h1>
+                                <h1 class="h6 text-center arabic ">12 / نظام مصعد بمعرض سيارات تويوتا</h1>
+                                <img src="images/final1.jpg" class="my-2 w-100" alt="">
+                                <img src="final5.jpg" class="my-2 w-100" alt="">
+                                <p class="text-muted h6 py-1 english"><span class="h6 text-black">Constractor :
+                                    </span>master piece
+                                    
+                                </p>
+                                <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">المنفذ : </span> Master piece </p>
+                                <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                    Civil and electromechanical engineering works </p>
+                                <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                    الأعمال المدنية والمعمارية والكهروميكانيكية
+                                    </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 text-center rounded-4 py-3">
+                            <div class="container bg-dark-subtle rounded-4 py-3">
+                                <h1 class="h6 text-center english">13 / Alexandria Port Power Station Project</h1>
+                                <h1 class="h6 text-center arabic ">13 / مشروع محطه كهرباء ميناء الإسكندرية </h1>
+                                <img src="images/final4.jpg" class="my-2 w-100" alt="">
+                                <img src="final4.jpg" class="my-2 w-100" alt="">
+                                <p class="text-muted h6 py-1 english"><span class="h6 text-black">constractor : </span>elsewedy electric trading & distribution
+                                </p> 
+                                <p class="text-muted h6 py-1 arabic "><span class="h6 text-black"> المنفذ :</span> شركة السويدي 
+                                </p>
+                                <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                    Civil, architectural and electromechanical engineering works </p>
+                                <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                    الأعمال المدنية والمعمارية والكهروميكانيكية
+                                    </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 text-center rounded-4 py-3">
+                            <div class="container bg-dark-subtle rounded-4 py-3">
+                                <h1 class="h6 text-center english">14 / Monorail power station, Sheikh Zayed </h1>
+                                <h1 class="h6 text-center arabic ">14 / محطه كهرباء المونوريل الشيخ زايد </h1>
+                                <img src="images/final6.jpg" class="my-2 w-100" alt="">
+                                <img src="final6.jpg" class="my-2 w-100" alt="">
+                                <p class="text-muted h6 py-1 english"><span class="h6 text-black">constractor : </span>elsewedy electric trading & distribution
+                                </p> 
+                                <p class="text-muted h6 py-1 arabic "><span class="h6 text-black"> المنفذ :</span> شركة السويدي 
+                                </p>
+                               
+                                <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work : </span>
+                                    Civil, architectural and electromechanical engineering works </p>
+                                <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                    الأعمال المدنية والمعمارية والكهروميكانيكية
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div id="architectural" class="">
+                <p class="h2 text-decoration-underline text-center fw-bold english bg-info-subtle py-3 rounded-3">Third
+                    : Architectural works</p>
+                <p class="h2 text-decoration-underline text-center fw-bold arabic bg-info-subtle py-3 rounded-3">ثالثا :
+                    الاعمال المعمارية </p>
+                <div class="row align-items-center justify-content-center rounded-4 gy-2">
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">1 / Port Said project
+                            </h1>
+                            <h1 class="h6 text-center arabic ">1 / مشروع بورسعيد</h1>
+                            <img src="images/project0040.jpg" class="w-100" alt="">
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Owner :
+                                </span> Amer Group
+                            </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">المالك : </span>عامر جروب
+
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work :
+                                </span>Soil and foundation research, participation in the design and
+                                supervision of the hotel, chalets, mall, and roads
+                            </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                أبحاث التربة والأساسات والمشاركة فى تصميم الفندق والشاليهات والمول
+                                والطرق والأشراف عليها
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">2 / Interior design project for a gym
+
+                            </h1>
+                            <h1 class="h6 text-center arabic ">2 / مشروع تصميم داخلي لجيم</h1>
+                            <img src="images/project0041.jpg" class="my-3 w-100" alt="">
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Location :
+                                </span> 10th of Ramadan City
+                            </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">الموقع : </span> مدينة
+                                العاشر من رمضان
+
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work :
+                                </span>Interior design
+                            </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                تصميم داخلي (انتريور)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">3 / Interior design project
+                            </h1>
+                            <h1 class="h6 text-center arabic ">3 / مشروع تصميم داخلي</h1>
+                            <img src="images/project0042.jpg" class="my-3 w-100" alt="">
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Owner :
+                                </span> Taiba, Ismailia
+                            </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">المالك: </span> طيبة
+                                بالاسماعيلية
+
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work :
+                                </span>Interior design
+                            </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                تصميم داخلي (انتريور)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">4 / Interior design for cafe project
+                            </h1>
+                            <h1 class="h6 text-center arabic ">4 /مشروع تصميم داخلي كافيتيريا </h1>
+                            <img src="images/project0043.jpg" class="my-2 w-100" alt="">
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Location :
+                                </span> Ninth District - New Cairo
+                            </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">الموقع: </span> الحي
+                                التاسع - التجمع
+
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work :
+                                </span>Interior design
+                            </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                تصميم داخلي (انتريور)
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center rounded-4 py-3">
+                        <div class="container bg-dark-subtle rounded-4 py-3">
+                            <h1 class="h6 text-center english">5 / Interior design Residential apartment project
+
+                            </h1>
+                            <h1 class="h6 text-center arabic ">5 /مشروع تصميم داخلي لشقة سكنية </h1>
+                            <img src="images/project0044.jpg" class=" w-100" alt="">
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Location :
+                                </span> Sultan Hussein, Ismailia
+                            </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">الموقع: </span> السلطان
+                                حسين - الاسماعيلية
+
+                            <p class="text-muted h6 py-1 english"><span class="h6 text-black">Scope of work :
+                                </span>Interior design
+                            </p>
+                            <p class="text-muted h6 py-1 arabic "><span class="h6 text-black">نطاق الاعمال : </span>
+                                تصميم داخلي (انتريور)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 4 end services -->
+    <!-- -------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- 5 start lab -->
+    <section id="lab" class=" py-3">
+        <div class="container my-5">
+            <div class="about-head container-fluid w-75 text-center">
+                <div
+                    class="trans text-center position-relative d-flex justify-content-center align-items-center flex-column">
+                    <h2 class="fw-bold english">L</h2>
+                    <h2 class="fw-bold arabic">م</h2>
+                    <div class="position-absolute about-head-custom">
+                        <h2 class="fs-1 fw-bold english">LABORATORY</h2>
+                        <h2 class="fs-1 fw-bold arabic">المعمل</h2>
+                    </div>
+                </div>
+                <p class="text-muted fs-5 my-4 english">We present to you a presentation of the contents of the soil and
+                    concrete laboratory including devices, tools and equipment which approved by the Egyptian Electricity Transmission Company through our client El-sewedy  Company As following :
+                </p>
+                <p class="text-muted fs-5 my-4 arabic">ﻧﻘﺪم ﻟﺴﯿﺎدﺗﻜﻢ ﻋﺮض ﺑﻤﺤﺘﻮﯾﺎت ﻣﻌﻤﻞ اﻟﺘﺮﺑﺔ واﻟﺨﺮﺳﺎﻧﺔ ﻣﻦ اﺟﮭﺰة وادوات و
+                    ﻣﻌﺪات ،والمعتمدة من قبل الشركة المصرية لنقل الكهرباء بواسطة عميلنا شركة السويدى ﻛﻤﺎ ﯾﻠﻰ
+                    :
+                </p>
+
+            </div>
+
+            <div class="my-2">
+                <p class="h2 text-decoration-underline text-center fw-bold english bg-info-subtle py-3 rounded-3">First : soil-related tools, devices, and equipment</p>
+                <p class="h2 text-decoration-underline text-center fw-bold arabic bg-info-subtle py-3 rounded-3">أوﻻ :
+                    أدوات وأﺟﮭﺰة وﻣﻌﺪات اﻟﺨﺎﺻﺔ ﺑﺎﻟﺘﺮﺑﺔ </p>
+                <div class="row align-items-center justify-content-center text-center rounded-4 gy-2">
+                    <div class="col-md-3 gx-3  ">
+                        <div class="bg-dark-subtle rounded-4 p-2">
+                            <img src="images/labs/lab1.jpg" alt="" class="w-100 my-3 px-2">
+                            <p class="h6 mb-3 english">1 / Oven for drying samples</p>
+                            <p class="h6 mb-3 arabic">1 / ﻓﺮن ﻟﺘﺠﻔﯿﻒ اﻟﻌﯿﻨﺎت</p>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-3 gx-3  ">
+                        <div class="bg-dark-subtle rounded-4 p-2">
+                            <img src="images/labs/lab2.jpg" alt="" class="w-100 my-3 px-2">
+                            <p class="h6 mb-3 english">2 / Modified proctor device with hammer</p>
+                            <p class="h6 mb-3 arabic">2 / ﺟﮭﺎز ﺑﺮوﻛﺘﻮراﻟﻤﻌﺪل ﻣﺰود ﺑﺎﻟﻤﻄﺮﻗﺔ</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 gx-3  ">
+                        <div class="bg-dark-subtle rounded-4 p-2">
+                            <img src="images/labs/lab3.jpg" alt="" class="w-100 my-3 px-2">
+                            <p class="h6 mb-3 english">3 / Hammer</p>
+                            <p class="h6 mb-3 arabic">3 / ﻣﻄﺮﻗﺔ</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 gx-3  ">
+                        <div class="bg-dark-subtle rounded-4 p-2">
+                            <img src="images/labs/lab4.jpg" alt="" class="w-100 my-3 px-2">
+                            <p class="h6 mb-3 english">4 / Embryos</p>
+                            <p class="h6 mb-3 arabic">4 / أﺟﻨﺔ </p>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-3 gx-3  ">
+                        <div class="bg-dark-subtle rounded-4 p-2">
+                            <img src="images/labs/lab5.jpg" alt="" class="w-100 my-3 px-2">
+                            <p class="h6 mb-3 english">5 / Digital scale</p>
+                            <p class="h6 mb-3 arabic">5 / ﻣﯿﺰان رﻗﻤﻰ</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 gx-3  ">
+                        <div class="bg-dark-subtle rounded-4 p-2">
+                            <img src="images/labs/lab6.jpg" alt="" class="w-100 my-3 px-2">
+                            <p class="h6 mb-3 english">6 / Standard sieves</p>
+                            <p class="h6 mb-3 arabic">6 / ﻣﻨﺎﺧﻞ ﻗﯿﺎﺳﯿﺔ</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 gx-3  ">
+                        <div class="bg-dark-subtle rounded-4 p-2">
+                            <img src="images/labs/lab7.jpg" alt="" class="w-100 my-3 px-2">
+                            <p class="h6 mb-3 english">7 / Plate loading device</p>
+                            <p class="h6 mb-3 arabic">7 / ﺟﮭﺎز التحميل اللوحي</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 gx-3  ">
+                        <div class="bg-dark-subtle rounded-4 p-2">
+                            <img src="images/labs/lab8.jpg" alt="" class="w-100 my-3 px-2">
+                            <p class="h6 mb-3 english">8 / Sand cone tools</p>
+                            <p class="h6 mb-3 arabic">8 / ﺟﮭﺎز اﻟﻤﺨﺮوط اﻟﺮﻣﻠﻰ</p>
+                        </div>
+                </div>
+            </div>
+
+            <div class="my-3">
+                <p class="h2 text-decoration-underline text-center fw-bold english bg-info-subtle py-3 rounded-3">Second : concrete tools, devices and equipment</p>
+                <p class="h2 text-decoration-underline text-center fw-bold arabic bg-info-subtle py-3 rounded-3">ﺛﺎﻧﯿﺎ
+                    : أدوات وأﺟﮭﺰة وﻣﻌﺪات اﻟﺨﺎﺻﺔ ﺑﺎﻟﺨﺮﺳﺎﻧﺔ </p>
+                <div class="row align-items-center justify-content-center text-center rounded-4 gy-2">
+                    <div class="col-md-3 gx-3  ">
+                        <div class="bg-dark-subtle rounded-4 p-2">
+                            <img src="images/labs/lab9.jpg" alt="" class="w-100 my-3 px-2">
+                            <p class="h6 mb-3 english">9 / Cube compression machine</p>
+                            <p class="h6 mb-3 arabic">9 / ﻣﺎﻛﯿﻨﺔ ﺿﻐﻂ اﻟﻤﻜﻌﺒﺎت</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 gx-3  ">
+                        <div class="bg-dark-subtle rounded-4 p-2">
+                            <img src="images/labs/lab10.jpg" alt="" class="w-100 my-3 px-2">
+                            <p class="h6 mb-3 english">10 / A thermometer to measure the temperature of concrete</p>
+                            <p class="h6 mb-3 arabic">10 / ﺗﺮﻣﻮﻣﺘﺮ ﻟﻘﯿﺎس درﺟﺔ ﺣﺮارة اﻟﺨﺮﺳﺎﻧﺔ </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 gx-3  ">
+                        <div class="bg-dark-subtle rounded-4 p-2">
+                            <img src="images/labs/lab11.jpg" alt="" class="w-100 my-3 px-2">
+                            <p class="h6 mb-3 english">11 / Slump test tools</p>
+                            <p class="h6 mb-3 arabic">11 / ﺟﮭﺎز الانسياب للخرسانة</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 gx-3  ">
+                        <div class="bg-dark-subtle rounded-4 p-2">
+                            <img src="images/labs/lab12.jpg" alt="" class="w-100 my-3 px-2">
+                            <p class="h6 mb-3 english">12 / Iron cubes for concrete</p>
+                            <p class="h6 mb-3 arabic">12 / ﻣﻜﻌﺒﺎت ﺣﺪﯾﺪ ﻟﻠﺨﺮﺳﺎﻧﺔ </p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- 5 end lab -->
+    <!-- -------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- 5 start blog -->
+
+    <section id="contract" class="container my-3">
+        <div class="about-head container-fluid w-75 text-center">
+            <div
+                class="trans text-center position-relative d-flex justify-content-center align-items-center flex-column">
+                <h2 class="fw-bold english">C</h2>
+                <h2 class="fw-bold arabic">ع</h2>
+                <div class="position-absolute about-head-custom">
+                    <h2 class="fs-1 fw-bold arabic">العقود واوراق المكتب</h2>
+                    <h2 class="fs-1 fw-bold english">Contracts And Office Papers</h2>
+                </div>
+            </div>
+            <p class="text-muted fs-5 my-4 english">We inform you that in any work carried out by our office, there must
+                be a
+                team of distinguished engineers to supervise and implement the procedures of all employees using the
+                correct engineering methods, to ensure the quality of tasks, and to properly manage and overcome
+                emotions and difficult confrontations.
+            </p>
+            <p class="text-muted fs-5 my-4 arabic">نحيط علم سيادتكم انه فى اى عمل يقوم به مكتبنا لابد من ان يكون طاقم
+                التنفيذ يتبعه مهندس متميز للاشراف واجراءات جميع الاعمال بالطرق الهندسية الصحيحة ولضمان جودة الاعمال وحسن
+                ادارة المواقف والمواجهات الصعبة والتغلب عليها .
+
+            </p>
+        </div>
+
+        <!-- contract -->
+        <div id="carouselExampleCaptions10" class="carousel container w-75 slide text-center mt-3">
+            <p class="h2 text-decoration-underline text-center fw-bold english bg-info-subtle py-3 rounded-3">Frist
+                : Contracts</p>
+            <p class="h2 text-decoration-underline text-center fw-bold arabic bg-info-subtle py-3 rounded-3">اولا :
+                العقود </p>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-caption text-black opacity-75 bg-dark-subtle d-md-block">
+                        <h5 class="english">Lease contract for Al Shafar Company’s laboratory.</h5>
+                        <h5 class="arabic">عقد إيجار معمل شركة الشعفار.</h5>
+                    </div>
+                    <img src="images/contract1.png" class="d-block mx-auto w-75" alt="...">
+                    <img src="contract1.png" class="d-block mx-auto w-75" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/contract2.png" class="d-block mx-auto w-75" alt="...">
+                    <img src="contract2.png" class="d-block mx-auto w-75" alt="...">
+
+                    <div class="carousel-caption text-black opacity-75 bg-dark-subtle d-md-block">
+                        <h5 class="english">Lease contract for the Protection Company laboratory.</h5>
+                        <h5 class="arabic">عقد إيجار معمل شركة بروتكشن.</h5>
+
+                    </div>
+                </div>
+                <div class="carousel-item bg-">
+                    <img src="images/contract3.png" class="d-block mx-auto w-75" alt="...">
+                    <img src="contract3.png" class="d-block mx-auto w-75" alt="...">
+                    <div class="carousel-caption text-black opacity-75 bg-dark-subtle d-md-block">
+                        <h5 class="arabic">عقد إيجار معمل شركة جاما.</h5>
+
+                        <h5 class="english">Lease contract for Gamma Company laboratory.</h5>
+                    </div>
+                </div>
+                <div class="carousel-item bg-">
+                    <img src="images/contract4.png" class="d-block mx-auto w-75" alt="...">
+                    <img src="contract4.png" class="d-block mx-auto w-75" alt="...">
+                    <div class="carousel-caption text-black opacity-75 bg-dark-subtle d-md-block">
+                        <h5 class="arabic">عقد استشارات عامة لشركة الوطنية للمقاولات.</h5>
+
+                        <h5 class="english">General consulting contract for National Contracting Company.</h5>
+                    </div>
+                </div>
+                <div class="carousel-item bg-">
+                    <img src="images/contract5.jpg" class="d-block mx-auto w-75" alt="...">
+                    <img src="contract5.png" class="d-block mx-auto w-75" alt="...">
+                    <div class="carousel-caption text-black opacity-75 bg-dark-subtle d-md-block">
+                        <h5 class="arabic">عقد استشارات عامة لشركة السويدي للمقاولات.</h5>
+
+                        <h5 class="english">General consulting contract for El-sweedy Contracting Company.</h5>
+                    </div>
+                </div>
+                <div class="carousel-item bg-">
+                    <img src="images/contract6.jpg" class="d-block mx-auto w-75" alt="...">
+                    <div class="carousel-caption text-black opacity-75 bg-dark-subtle d-md-block">
+                        <h5 class="arabic">عقد استشارات عامة لشركة السويدي للمقاولات.</h5>
+
+                        <h5 class="english">General consulting contract for El-sweedy Contracting Company.</h5>
+                    </div>
+                </div>
+                <div class="carousel-item bg-">
+                    <img src="images/contract7.jpg" class="d-block mx-auto w-75" alt="...">
+                    <div class="carousel-caption text-black opacity-75 bg-dark-subtle d-md-block">
+                        <h5 class="arabic">عقد استشارات عامة لشركة السويدي للمقاولات.</h5>
+
+                        <h5 class="english">General consulting contract for El-sweedy Contracting Company.</h5>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions10"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon rounded-circle bg-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions10"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon rounded-circle bg-dark" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- papers -->
+        <div id="carouselExampleCaptions20" class="carousel slide container w-75 text-center my-3">
+            <p class="h2 text-decoration-underline text-center fw-bold english bg-info-subtle py-3 rounded-3">Second
+                : Papers</p>
+            <p class="h2 text-decoration-underline text-center fw-bold arabic bg-info-subtle py-3 rounded-3">ثانيا :
+                الاوراق </p>
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/papers1.jpg" class="d-block mx-auto w-75" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/papers2.jpg" class="d-block mx-auto w-75" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/papers3.jpg" class="d-block mx-auto w-75" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/papers4.jpg" class="d-block mx-auto w-75" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/papers5.png" class="d-block mx-auto w-75" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/papers6.jpg" class="d-block mx-auto w-75" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions20"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon rounded-circle bg-dark" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions20"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon rounded-circle bg-dark" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+    </section>
+    <!-- 5 end blog -->
+    <!-- -------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- 6 start contact -->
+    <section id="contact" class="container-fluid bg-body-tertiary py-5">
+        <div class="container my-5">
+            <div class="about-head container-fluid w-75 text-center my-5">
+                <div
+                    class="trans text-center position-relative d-flex justify-content-center align-items-center flex-column">
+                    <h2 class="fw-bold english">C</h2>
+                    <h2 class="fw-bold arabic">ت</h2>
+                    <div class="position-absolute about-head-custom">
+                        <h2 class="fs-1 fw-bold english">Contact Us</h2>
+                        <h2 class="fs-1 fw-bold arabic">تواصل معنا </h2>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-6 english">
+                    <p class="fs-2 fw-bold">Get answers and advices from professional consultants.</p>
+                    <div class="d-flex align-items-start mt-5 border-bottom">
+                        <div class="service-icon pe-3"><i class="fa-regular fa-map fa-xl"></i></div>
+                        <div class="contact-custom">
+                            <h5 class="fw-bold english">Address</h5>
+                            <p class="text-muted english">El-Shorouk city , Cairo , Egypt</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-start mt-3 border-bottom">
+                        <div class="service-icon pe-3"><i class="fa-solid fa-mobile-screen-button fa-xl"></i></div>
+                        <div class="contact-custom">
+                            <h5 class="fw-bold english">Phone</h5>
+                            <p class="text-muted english">+201001100187 / +201281343334 / +201065414278</p>
+                            
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-start mt-3">
+                        <div class="service-icon pe-3"><i class="fa-regular fa-envelope fa-xl"></i></div>
+                        <div class="say-hello contact-custom">
+                            <h5 class="fw-bold english">E-Mail</h5>
+                            <p class="mb-0"><a href="#contact" class="text-muted text-decoration-none english">eh.engineeringhouse@gmail.com</a></p>
+                            <p><a href="#contact" class="text-muted text-decoration-none english">waleed_el_kamash@hotmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 arabic">
+                    <p class="fs-3 fw-bold">نحصل على إجابات ونصائح من المستشارين المحترفين.</p>
+                    <div class="d-flex align-items-start mt-5 border-bottom">
+                        <div class="service-icon ps-3"><i class="fa-regular fa-map fa-xl"></i></div>
+                        <div class="contact-custom">
+                            <h5 class="fw-bold arabic">العنوان</h5>
+                            <p class="text-muted arabic">مدينة الشروق - القاهرة - مصر</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-start mt-3 border-bottom">
+                        <div class="service-icon ps-3"><i class="fa-solid fa-mobile-screen-button fa-xl"></i></div>
+                        <div class="contact-custom">
+                            <h5 class="fw-bold arabic">التليفون</h5>
+                            <p class="text-muted arabic">01001100187 / 01281343334 / 01065414278</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-start mt-3">
+                        <div class="service-icon ps-3"><i class="fa-regular fa-envelope fa-xl"></i></div>
+                        <div class="say-hello contact-custom">
+                            <h5 class="fw-bold arabic">البريد الالكتروني</h5>
+                            <!-- <p><a href=""
+                                    class="text-muted text-decoration-none arabic">eh.engineeringhouse@gmail.com</a></p> -->
+                            <p class="mb-0"><a href="#contact" class="text-muted text-decoration-none arabic">eh.engineeringhouse@gmail.com</a></p>
+                            <p><a href="#contact" class="text-muted text-decoration-none arabic">waleed_el_kamash@hotmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 english">
+                    <form>
+                        <div class="mb-1">
+                            <label for="name" class="form-label"></label>
+                            <input type="text" class="form-control" id="name" name="UserName" placeholder="Name">
+                        </div>
+                        <div class="mb-1">
+                            <label for="emil" class="form-label"></label>
+                            <input type="email" class="form-control" id="email" name="userEmail" placeholder="Email">
+                        </div>
+                        <div class="mb-1">
+                            <label for="phone" id="userPhoneInput" class="form-label"></label>
+                            <input type="tel" class="form-control" id="phone" name="userPhone" placeholder="Phone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="umessage" class="form-label"></label>
+                            <textarea class="form-control" id="umessage" name="userMessage" rows="4"
+                                placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-custom rounded-1 text-white fw-bold px-4 py-2">Send
+                            Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6 arabic">
+                    <div class="mb-1">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="الاسم">
+                    </div>
+                    <div class="mb-1">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="الايميل">
+                    </div>
+                    <div class="mb-1">
+                        <label for="exampleFormControlInput1" class="form-label"></label>
+                        <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="رقم التليفون">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label"></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
+                            placeholder="رسالتك"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-custom rounded-1 text-white fw-bold px-4 py-2">أرسل
+                        رسالتك</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 6 end contact -->
+    <!-- -------------------------------------------------------------------------------------------------------------------------- -->
+    <!-- 7 start footer -->
+    <footer id="footer" class="container-fluid bg-black">
+        <div class="container english d-flex align-items-center justify-content-between flex-column flex-md-row py-5">
+            <div class="footer-icon d-flex mb-2">
+                <a href="https://www.facebook.com/profile.php?id=100090969769392" target="_blank"><i
+                        class="fa-brands fa-facebook-f text-white px-3"></i></a>
+                <a href="https://www.linkedin.com/company/102433227/admin/feed/posts/" target="_blank"><i class="fa-brands fa-linkedin-in text-white px-3"></i></a>
+                <a href=""><i class="fa-brands fa-twitter text-white px-3"></i></a>
+                <a href=""><i class="fa-brands fa-instagram text-white px-3"></i></a>
+                <a href=""><i class="fa-brands fa-dribbble text-white px-3"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest text-white px-3"></i></a>
+            </div>
+            <div class="foot d-flex">
+                <p>Copyright © 2024 </p>
+                <a href="#home" class="text-decoration-none text-white ps-2">Engineering House</a>
+            </div>
+        </div>
+    </footer>
+    <!-- 7 end footer -->
+
+
+    <!-- -------------------------------------------------------------------------------------------------------------------------- -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/main.js"></script>
+    <script src="js/sendEmail.js"></script>
+    <!-- -------------------------------------------------------------------------------------------------------------------------- -->
+</body>
+
+</html>

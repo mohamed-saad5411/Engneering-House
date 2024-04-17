@@ -1,0 +1,34 @@
+@media screen and (max-width: 768px) {
+    #home .main-head h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .head-icon {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .arabic .col-lg-3,
+    .english .col-lg-3 {
+        width: 90%;
+    }
+
+    .sm-screen{
+        display: block !important;
+    }
+
+    .bg-screen{
+        display: none !important;
+    }
+    .carousel-caption h5{
+        font-size: 0.75rem !important;
+    }
+    .carousel-caption{
+        height: 32%;
+    }
+}
